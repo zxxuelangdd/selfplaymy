@@ -1,42 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88fd19cd-45cf-4015-b100-6447e5b2fd6f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/threads/executors/packageinfo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threads/future/CompletableFutureDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threads/future/FutureDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threads/future/async/Shop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threads/future/async/ShopPriceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threads/thread1/activeObject/ActiveObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threads/thread1/activeObject/ActiveObjectFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threads/thread1/activeObject/ActiveObjectImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threads/thread1/activeObject/DisplayClientThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threads/thread1/activeObject/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threads/thread1/activeObject/MakerClientThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threads/thread1/future/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threads/thread1/future/FutureData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threads/thread1/future/Host.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threads/thread1/future/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threads/thread1/future/RealData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threads/thread1/thread_Specific_Storage/Log.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threads/thread1/thread_Specific_Storage/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threads/thread1/thread_Specific_Storage/with/ClientThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threads/thread1/thread_Specific_Storage/with/Log.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threads/thread1/thread_Specific_Storage/with/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threads/thread1/thread_Specific_Storage/with/TSLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threads/thread1/twoPhaseTermination/CountupThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threads/thread1/twoPhaseTermination/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threads/thread1/twoPhaseTermination/countdownLatch/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threads/thread1/twoPhaseTermination/countdownLatch/MyTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threads/thread1/twoPhaseTermination/cyclicBarrier/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threads/thread1/twoPhaseTermination/cyclicBarrier/Mytask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/othertest/aa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/recursionjdk8/Dish2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/recursionjdk8/ListSplitMany.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/WSJDCaptcha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WSJDCaptcha.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/othertest/LittleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/othertest/LittleTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="88fd19cd-45cf-4015-b100-6447e5b2fd6f" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,18 +36,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Dish2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/recursionjdk8/Dish2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-              <folding>
-                <element signature="e#309#310#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="JustTess.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/othertest/JustTess.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -128,11 +81,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="aa.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="aa.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/othertest/aa.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
+            <state relative-caret-position="253">
               <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserThread.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/threads/thread1/UserThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestCommit.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gitTest/TestCommit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -211,7 +182,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/designpatterns/abstractfactory/test/AbstractFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/designpatterns/abstractfactory/Human.java" />
         <option value="$PROJECT_DIR$/src/main/java/designpatterns/abstractfactory/Man.java" />
         <option value="$PROJECT_DIR$/src/main/java/designpatterns/abstractfactory/Woman.java" />
@@ -262,6 +232,7 @@
         <option value="$PROJECT_DIR$/src/test/java/othertest/LittleTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/othertest/aa.java" />
         <option value="$PROJECT_DIR$/src/test/java/WSJDCaptcha.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gitTest/TestCommit.java" />
       </list>
     </option>
   </component>
@@ -349,26 +320,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="threads" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="selfplay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selfplay" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="threads" type="462c0819:PsiDirectoryNode" />
-              <item name="thread1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="selfplay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selfplay" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="threads" type="462c0819:PsiDirectoryNode" />
-              <item name="thread1" type="462c0819:PsiDirectoryNode" />
-              <item name="workerThread" type="462c0819:PsiDirectoryNode" />
+              <item name="gitTest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="selfplay" type="b2602c69:ProjectViewProjectNode" />
@@ -650,7 +602,7 @@
       <workItem from="1539003656242" duration="797000" />
       <workItem from="1539351218657" duration="632000" />
       <workItem from="1539395785197" duration="1368000" />
-      <workItem from="1539517454206" duration="477000" />
+      <workItem from="1539517454206" duration="2517000" />
     </task>
     <task id="LOCAL-00001" summary="first test">
       <created>1536307474717</created>
@@ -659,11 +611,39 @@
       <option name="project" value="LOCAL" />
       <updated>1536307474717</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first test">
+      <created>1539518132740</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1539518132740</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test git">
+      <created>1539518482524</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1539518482524</updated>
+    </task>
+    <task id="LOCAL-00004" summary="branch commit test">
+      <created>1539519896743</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1539519896743</updated>
+    </task>
+    <task id="LOCAL-00005" summary="branch commit test2">
+      <created>1539519941372</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1539519941372</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="389693000" />
+    <option name="totallyTimeSpent" value="391733000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -687,17 +667,17 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3293944" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798927" weight="0.22304283" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49932975" visible="true" weight="0.6587888" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49932975" visible="true" weight="0.506647" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.6839827" visible="true" weight="0.1816354" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.78443116" visible="true" weight="0.1816354" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32890856" />
       <window_info anchor="right" id="Database" order="5" weight="0.3297587" />
       <window_info anchor="right" id="Structure" order="10" sideWeight="0.5014749" side_tool="true" weight="0.2761394" />
       <window_info anchor="right" id="Ant Build" order="8" sideWeight="0.35758835" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info id="Favorites" order="4" sideWeight="0.31601733" side_tool="true" visible="true" weight="0.1816354" />
+      <window_info id="Favorites" order="4" sideWeight="0.21556886" side_tool="true" visible="true" weight="0.1816354" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.23042837" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" sideWeight="0.49852508" visible="true" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="4" sideWeight="0.3939394" side_tool="true" visible="true" weight="0.17895442" />
@@ -747,7 +727,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first test" />
-    <option name="LAST_COMMIT_MESSAGE" value="first test" />
+    <MESSAGE value="test git" />
+    <MESSAGE value="branch commit test" />
+    <MESSAGE value="branch commit test2" />
+    <option name="LAST_COMMIT_MESSAGE" value="branch commit test2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -865,20 +848,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/threads/thread1/future/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/threads/thread1/future/RealData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/io/PrintWriter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
@@ -1449,8 +1418,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/othertest/aa.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
+        <state relative-caret-position="253">
           <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threads/thread1/UserThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gitTest/TestCommit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
         </state>
       </provider>
     </entry>
