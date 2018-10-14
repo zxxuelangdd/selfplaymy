@@ -1,0 +1,1546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="88fd19cd-45cf-4015-b100-6447e5b2fd6f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/threads/executors/packageinfo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threads/future/CompletableFutureDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threads/future/FutureDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threads/future/async/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threads/future/async/ShopPriceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threads/thread1/activeObject/ActiveObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threads/thread1/activeObject/ActiveObjectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threads/thread1/activeObject/ActiveObjectImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threads/thread1/activeObject/DisplayClientThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threads/thread1/activeObject/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threads/thread1/activeObject/MakerClientThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threads/thread1/future/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threads/thread1/future/FutureData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threads/thread1/future/Host.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threads/thread1/future/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threads/thread1/future/RealData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threads/thread1/thread_Specific_Storage/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threads/thread1/thread_Specific_Storage/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threads/thread1/thread_Specific_Storage/with/ClientThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threads/thread1/thread_Specific_Storage/with/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threads/thread1/thread_Specific_Storage/with/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threads/thread1/thread_Specific_Storage/with/TSLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threads/thread1/twoPhaseTermination/CountupThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threads/thread1/twoPhaseTermination/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threads/thread1/twoPhaseTermination/countdownLatch/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threads/thread1/twoPhaseTermination/countdownLatch/MyTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threads/thread1/twoPhaseTermination/cyclicBarrier/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threads/thread1/twoPhaseTermination/cyclicBarrier/Mytask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/othertest/aa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/recursionjdk8/Dish2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/recursionjdk8/ListSplitMany.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WSJDCaptcha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WSJDCaptcha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/othertest/LittleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/othertest/LittleTest.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/selfplay$WSJDCaptchaOnline.ic" NAME="WSJDCaptchaOnline Coverage Results" MODIFIED="1531968754889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/selfplay$WSJDimpljson.ic" NAME="WSJDimpljson Coverage Results" MODIFIED="1535253115482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>wsjk.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="selfplay" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Dish2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/recursionjdk8/Dish2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+              <folding>
+                <element signature="e#309#310#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JustTess.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/othertest/JustTess.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestEasy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/othertest/TestEasy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LittleTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/othertest/LittleTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="24" column="25" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1518">
+              <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CollectionByStream.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/recursionjdk8/CollectionByStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="966">
+              <caret line="48" column="62" selection-start-line="48" selection-start-column="62" selection-end-line="48" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aa.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/othertest/aa.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/threads/thread1/workerThread/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="13" column="24" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListSplitMany.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/recursionjdk8/ListSplitMany.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Interface" />
+        <option value="Singleton" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>setup</find>
+      <find>setUp</find>
+      <find>PageType</find>
+      <find>PropertyBuilder</find>
+      <find>logger</find>
+      <find>国务院信息</find>
+      <find>collect5</find>
+      <find>ave</find>
+      <find>max</find>
+      <find>formresult</find>
+      <find>同仁堂</find>
+      <find>****************************************</find>
+      <find>查询结果出错</find>
+      <find>collect9</find>
+      <find>collect2</find>
+      <find>jsou</find>
+      <find>“userName=”</find>
+      <find>“</find>
+      <find>put</find>
+      <find>fi</find>
+      <find>reduce</find>
+      <find />
+      <find>join()</find>
+      <find>join</find>
+      <find>RIGINAL PANTREE FryingPan Kitchen Storage Organizer Hanging Rack PantryH</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>System.out.println</replace>
+      <replace>Dish.PersonFactory</replace>
+      <replace>&quot;userName=&quot;</replace>
+      <replace>&quot;</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/designpatterns/abstractfactory/test/AbstractFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/designpatterns/abstractfactory/Human.java" />
+        <option value="$PROJECT_DIR$/src/main/java/designpatterns/abstractfactory/Man.java" />
+        <option value="$PROJECT_DIR$/src/main/java/designpatterns/abstractfactory/Woman.java" />
+        <option value="$PROJECT_DIR$/src/main/java/designpatterns/abstractfactory/HumanFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/designpatterns/abstractfactory/ManF.java" />
+        <option value="$PROJECT_DIR$/src/main/java/designpatterns/abstractfactory/WomanF.java" />
+        <option value="$PROJECT_DIR$/src/main/java/designpatterns/abstractfactory/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/designpatterns/adapt/package-info.java" />
+        <option value="$PROJECT_DIR$/src/main/java/designpatterns/adapt/USA110.java" />
+        <option value="$PROJECT_DIR$/src/main/java/designpatterns/adapt/USA110impl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/designpatterns/adapt/Chain220.java" />
+        <option value="$PROJECT_DIR$/src/main/java/designpatterns/adapt/ElectricCooker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/designpatterns/adapt/PowerAdaptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/designpatterns/adapt/AdapterTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/othertest/JustTess.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threads/thread1/future/Data.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threads/thread1/future/Host.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threads/thread1/future/FutureData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threads/thread1/future/RealData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threads/thread1/future/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threads/thread1/twoPhaseTermination/CountupThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threads/thread1/twoPhaseTermination/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threads/thread1/twoPhaseTermination/countdownLatch/MyTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threads/thread1/twoPhaseTermination/cyclicBarrier/Mytask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threads/thread1/twoPhaseTermination/countdownLatch/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threads/thread1/twoPhaseTermination/cyclicBarrier/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threads/thread1/thread_Specific_Storage/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threads/thread1/thread_Specific_Storage/Log.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threads/thread1/thread_Specific_Storage/with/TSLog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threads/thread1/thread_Specific_Storage/with/Log.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threads/thread1/thread_Specific_Storage/with/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threads/thread1/thread_Specific_Storage/with/ClientThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threads/executors/packageinfo" />
+        <option value="$PROJECT_DIR$/src/main/java/threads/future/CompletableFutureDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threads/future/FutureDemo1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threads/future/async/Shop.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threads/future/async/ShopPriceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threads/thread1/activeObject/ActiveObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threads/thread1/activeObject/ActiveObjectFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threads/thread1/activeObject/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threads/thread1/activeObject/ActiveObjectImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threads/thread1/activeObject/MakerClientThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threads/thread1/activeObject/DisplayClientThread.java" />
+        <option value="$PROJECT_DIR$/src/test/java/recursionjdk8/Dish.java" />
+        <option value="$PROJECT_DIR$/src/test/java/recursionjdk8/Dish2.java" />
+        <option value="$PROJECT_DIR$/src/test/java/recursionjdk8/ListSplitMany.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/othertest/LittleTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/othertest/aa.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WSJDCaptcha.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\apache-maven-3.3.9\repository" />
+        <option name="mavenHome" value="D:/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="selfplay" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="970" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <showMembers ProjectPane="false" />
+      <abbreviatePackageNames ProjectPane="false" />
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="selfplay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selfplay" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="selfplay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selfplay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="selfplay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selfplay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="selfplay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selfplay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="selfplay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selfplay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="threads" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="selfplay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selfplay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="threads" type="462c0819:PsiDirectoryNode" />
+              <item name="thread1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="selfplay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selfplay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="threads" type="462c0819:PsiDirectoryNode" />
+              <item name="thread1" type="462c0819:PsiDirectoryNode" />
+              <item name="workerThread" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="selfplay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selfplay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="selfplay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selfplay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="selfplay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selfplay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="othertest" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ToolWindowEvent Log.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="recursionjdk8" />
+      <recent name="threads.thread1.immutable" />
+      <recent name="wsjk" />
+      <recent name="outofdate" />
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaspase\selfplay\src\main\java\designpatterns\abstractfactory\test" />
+      <recent name="D:\ideaspase\selfplay\src\main\java\designpatterns\abstractfactory" />
+      <recent name="D:\ideaspase\selfplay\src\main\java\designpatterns" />
+      <recent name="D:\ideaspase\selfplay\src\main\java\designpatterns\abstractDocument" />
+      <recent name="D:\ideaspase\selfplay\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.aa">
+    <configuration name="ListSplitMany" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursionjdk8.ListSplitMany" />
+      <module name="selfplay" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursionjdk8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="LittleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="othertest.LittleTest" />
+      <module name="selfplay" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="othertest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threads.thread1.balking.Main" />
+      <module name="selfplay" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="threads.thread1.balking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threads.thread1.activeObject.Main" />
+      <module name="selfplay" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="threads.thread1.activeObject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="aa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="othertest.aa" />
+      <module name="selfplay" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="othertest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.ListSplitMany" />
+      <item itemvalue="Application.LittleTest" />
+      <item itemvalue="Application.aa" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.aa" />
+        <item itemvalue="Application.LittleTest" />
+        <item itemvalue="Application.ListSplitMany" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="88fd19cd-45cf-4015-b100-6447e5b2fd6f" name="Default" comment="" />
+      <created>1531882756674</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1531882756674</updated>
+      <workItem from="1531882759496" duration="15069000" />
+      <workItem from="1531963329577" duration="15320000" />
+      <workItem from="1532002303206" duration="5928000" />
+      <workItem from="1532048920186" duration="19721000" />
+      <workItem from="1532263754080" duration="620000" />
+      <workItem from="1532308899607" duration="10354000" />
+      <workItem from="1532395121419" duration="1016000" />
+      <workItem from="1532412201243" duration="2592000" />
+      <workItem from="1532482564028" duration="4998000" />
+      <workItem from="1532567496918" duration="3819000" />
+      <workItem from="1532673128842" duration="965000" />
+      <workItem from="1532852174495" duration="1179000" />
+      <workItem from="1532931003677" duration="25825000" />
+      <workItem from="1533031704750" duration="2338000" />
+      <workItem from="1533115869403" duration="717000" />
+      <workItem from="1533188125766" duration="819000" />
+      <workItem from="1533210812522" duration="1994000" />
+      <workItem from="1533353568795" duration="1869000" />
+      <workItem from="1533462647408" duration="7364000" />
+      <workItem from="1533518302731" duration="2080000" />
+      <workItem from="1533630308273" duration="5992000" />
+      <workItem from="1533690715016" duration="22544000" />
+      <workItem from="1533777295959" duration="1334000" />
+      <workItem from="1533778763580" duration="14842000" />
+      <workItem from="1533864323536" duration="19220000" />
+      <workItem from="1534122696469" duration="2191000" />
+      <workItem from="1534212317886" duration="5507000" />
+      <workItem from="1534296991830" duration="11669000" />
+      <workItem from="1534390167893" duration="3614000" />
+      <workItem from="1534485155833" duration="2009000" />
+      <workItem from="1534663685574" duration="50000" />
+      <workItem from="1534756016393" duration="1188000" />
+      <workItem from="1534757229708" duration="869000" />
+      <workItem from="1534831654069" duration="2735000" />
+      <workItem from="1535074012108" duration="598000" />
+      <workItem from="1535252620840" duration="13548000" />
+      <workItem from="1535332590353" duration="6392000" />
+      <workItem from="1535359481415" duration="24000" />
+      <workItem from="1535435225597" duration="5422000" />
+      <workItem from="1535509604490" duration="9794000" />
+      <workItem from="1535607218438" duration="2603000" />
+      <workItem from="1535683408831" duration="2648000" />
+      <workItem from="1535769186049" duration="247000" />
+      <workItem from="1535853426595" duration="14107000" />
+      <workItem from="1535937202480" duration="3409000" />
+      <workItem from="1535976220303" duration="6933000" />
+      <workItem from="1536022911450" duration="7093000" />
+      <workItem from="1536067759135" duration="4242000" />
+      <workItem from="1536156224278" duration="1192000" />
+      <workItem from="1536196199781" duration="11666000" />
+      <workItem from="1536282745735" duration="2166000" />
+      <workItem from="1536377090667" duration="800000" />
+      <workItem from="1536378494056" duration="6849000" />
+      <workItem from="1536386050419" duration="685000" />
+      <workItem from="1536390763943" duration="595000" />
+      <workItem from="1536449606743" duration="8803000" />
+      <workItem from="1536476914093" duration="7562000" />
+      <workItem from="1536543894224" duration="12536000" />
+      <workItem from="1536579926429" duration="4497000" />
+      <workItem from="1536627649547" duration="1365000" />
+      <workItem from="1536714630658" duration="363000" />
+      <workItem from="1536715185153" duration="711000" />
+      <workItem from="1536717627080" duration="87000" />
+      <workItem from="1536733615980" duration="2171000" />
+      <workItem from="1536754057249" duration="846000" />
+      <workItem from="1536758856320" duration="547000" />
+      <workItem from="1536802055921" duration="588000" />
+      <workItem from="1536816636513" duration="3065000" />
+      <workItem from="1537019629338" duration="2572000" />
+      <workItem from="1537165890221" duration="7597000" />
+      <workItem from="1537262697235" duration="586000" />
+      <workItem from="1537272323221" duration="4214000" />
+      <workItem from="1537353667757" duration="592000" />
+      <workItem from="1537414717423" duration="591000" />
+      <workItem from="1537582461567" duration="1183000" />
+      <workItem from="1538124394606" duration="1988000" />
+      <workItem from="1538146550194" duration="588000" />
+      <workItem from="1538727700626" duration="1414000" />
+      <workItem from="1538737000214" duration="669000" />
+      <workItem from="1538791319653" duration="1920000" />
+      <workItem from="1539003656242" duration="797000" />
+      <workItem from="1539351218657" duration="632000" />
+      <workItem from="1539395785197" duration="1368000" />
+      <workItem from="1539517454206" duration="477000" />
+    </task>
+    <task id="LOCAL-00001" summary="first test">
+      <created>1536307474717</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1536307474717</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="389693000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32743362" />
+      <window_info anchor="right" id="Palette&#9;" order="1" />
+      <window_info id="Image Layers" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5020107" side_tool="true" weight="0.45132744" />
+      <window_info anchor="right" id="Maven Projects" order="3" sideWeight="0.6060606" weight="0.16085792" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3293944" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798927" weight="0.22304283" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49932975" visible="true" weight="0.6587888" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.6839827" visible="true" weight="0.1816354" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32890856" />
+      <window_info anchor="right" id="Database" order="5" weight="0.3297587" />
+      <window_info anchor="right" id="Structure" order="10" sideWeight="0.5014749" side_tool="true" weight="0.2761394" />
+      <window_info anchor="right" id="Ant Build" order="8" sideWeight="0.35758835" weight="0.25" />
+      <window_info id="UI Designer" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info id="Favorites" order="4" sideWeight="0.31601733" side_tool="true" visible="true" weight="0.1816354" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.23042837" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" sideWeight="0.49852508" visible="true" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="4" sideWeight="0.3939394" side_tool="true" visible="true" weight="0.17895442" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49731904" weight="0.32791728" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" sideWeight="0.49852508" visible="true" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49798927" visible="true" weight="0.62924665" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49731904" weight="0.32890856" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.69491524" weight="0.22453083" />
+      <window_info anchor="right" id="Structure" order="10" sideWeight="0.5014749" side_tool="true" visible="true" weight="0.2761394" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" sideWeight="0.35758835" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32890856" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Database" order="5" weight="0.3297587" />
+      <window_info anchor="right" id="Palette&#9;" order="1" />
+      <window_info anchor="right" id="Coverage" order="4" sideWeight="0.3939394" side_tool="true" visible="true" weight="0.17895442" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.23156342" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5020107" side_tool="true" weight="0.45132744" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32890856" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49932975" weight="0.32890856" />
+      <window_info anchor="right" id="Maven Projects" order="3" sideWeight="0.6060606" weight="0.16085792" />
+      <window_info id="Favorites" order="4" sideWeight="0.30508474" side_tool="true" weight="0.3538874" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first test" />
+    <option name="LAST_COMMIT_MESSAGE" value="first test" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/WSJDImageGet.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/WSJDCaptchaOnline.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/WSJDCaptchaOnline2.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/WSJDCaptchaOnline2.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/wsjk/WSJDimpl.java</url>
+          <line>169</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/wsjk/WSJDimpl.java</url>
+          <line>167</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/recursionjdk8/MapCollectionDemo.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/recursionjdk8/RecursionDemo.java</url>
+          <line>43</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/wsjk/WSJDimpl.java</url>
+          <line>84</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/wsjk/WSJDimpl2.java</url>
+          <line>111</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/wsjk/WSJDimpl2.java</url>
+          <line>108</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/wsjk/WSJDimpl2.java</url>
+          <line>104</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/wsjk/WSJDimpl2.java</url>
+          <line>90</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/wsjk/WSJDimpljson.java</url>
+          <line>207</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/wsjk/WSJDimpljson.java</url>
+          <line>129</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/threads/thread1/balking/SaveThread.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/threads/thread1/workerThread/Main.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="42" />
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/threads/thread1/future/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threads/thread1/future/RealData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/io/PrintWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="736" column="16" selection-start-line="736" selection-start-column="16" selection-end-line="736" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threads/thread1/thread_Specific_Storage/with/TSLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="19" column="39" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threads/thread1/thread_Specific_Storage/with/Log.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="28" column="65" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threads/thread1/thread_Specific_Storage/with/ClientThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threads/thread1/twoPhaseTermination/cyclicBarrier/Mytask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="37" column="17" lean-forward="true" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threads/executors/packageinfo.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/Executors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="70" column="22" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/ExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="136" column="32" selection-start-line="136" selection-start-column="17" selection-end-line="136" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.util.concurrent.Executor">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.util.concurrent.Executor</OriginalElement>
+          <nodes>
+            <node x="" y="">java.util.concurrent.AbstractExecutorService</node>
+            <node x="" y="">java.util.concurrent.ThreadPoolExecutor</node>
+            <node x="" y="">sun.awt.shell.Win32ShellFolderManager2.ComInvoker</node>
+            <node x="" y="">java.util.concurrent.Executors.DelegatedExecutorService</node>
+            <node x="" y="">sun.net.httpserver.ServerImpl.DefaultExecutor</node>
+            <node x="" y="">java.util.concurrent.CompletableFuture.ThreadPerTaskExecutor</node>
+            <node x="" y="">com.asprise.ocr.OcrExecutorService</node>
+            <node x="" y="">com.google.common.util.concurrent.MoreExecutors.DirectExecutor</node>
+            <node x="" y="">com.google.common.util.concurrent.ForwardingExecutorService</node>
+            <node x="" y="">com.google.common.util.concurrent.AbstractListeningExecutorService</node>
+            <node x="" y="">java.util.concurrent.ScheduledExecutorService</node>
+            <node x="" y="">java.util.concurrent.Executors.FinalizableDelegatedExecutorService</node>
+            <node x="" y="">com.google.common.util.concurrent.ListeningScheduledExecutorService</node>
+            <node x="" y="">com.google.common.util.concurrent.WrappingScheduledExecutorService</node>
+            <node x="" y="">java.util.concurrent.ExecutorService</node>
+            <node x="" y="">java.util.concurrent.Executors.DelegatedScheduledExecutorService</node>
+            <node x="" y="">com.google.common.util.concurrent.MoreExecutors.ListeningDecorator</node>
+            <node x="" y="">java.util.concurrent.Executor</node>
+            <node x="" y="">com.google.common.util.concurrent.ForwardingListeningExecutorService</node>
+            <node x="" y="">com.sun.javafx.tk.quantum.QuantumRenderer</node>
+            <node x="" y="">java.util.concurrent.ScheduledThreadPoolExecutor</node>
+            <node x="" y="">com.google.common.util.concurrent.SequentialExecutor</node>
+            <node x="" y="">com.google.common.util.concurrent.MoreExecutors.DirectExecutorService</node>
+            <node x="" y="">com.sun.jmx.remote.internal.ClientNotifForwarder.LinearExecutor</node>
+            <node x="" y="">com.google.common.util.concurrent.MoreExecutors.ScheduledListeningDecorator</node>
+            <node x="" y="">java.util.concurrent.ForkJoinPool</node>
+            <node x="" y="">com.google.common.util.concurrent.WrappingExecutorService</node>
+            <node x="" y="">sun.nio.ch.AsynchronousChannelGroupImpl</node>
+            <node x="" y="">sun.nio.ch.Iocp</node>
+            <node x="" y="">com.google.common.util.concurrent.ListeningExecutorService</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="1460.0" y="212.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/Executor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="127" column="25" selection-start-line="127" selection-start-column="17" selection-end-line="127" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/AbstractExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threads/thread1/twoPhaseTermination/cyclicBarrier/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threads/executors/packageinfo">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.util.concurrent.Future">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.util.concurrent.Future</OriginalElement>
+          <nodes>
+            <node x="" y="">java.util.concurrent.CompletableFuture.UniApply</node>
+            <node x="" y="">java.util.ArraysParallelSortHelpers.FJChar.Merger</node>
+            <node x="" y="">com.google.common.util.concurrent.ImmediateFuture.ImmediateFailedFuture</node>
+            <node x="" y="">java.util.concurrent.ConcurrentHashMap.MapReduceKeysToLongTask</node>
+            <node x="" y="">java.util.ArraysParallelSortHelpers.FJDouble.Merger</node>
+            <node x="" y="">java.util.concurrent.Future</node>
+            <node x="" y="">java.util.concurrent.CountedCompleter</node>
+            <node x="" y="">com.google.common.util.concurrent.AbstractFuture.SynchronizedHelper</node>
+            <node x="" y="">java.util.concurrent.RunnableScheduledFuture</node>
+            <node x="" y="">java.util.ArraysParallelSortHelpers.FJLong.Sorter</node>
+            <node x="" y="">com.google.common.util.concurrent.ForwardingCheckedFuture.SimpleForwardingCheckedFuture</node>
+            <node x="" y="">java.util.stream.AbstractTask</node>
+            <node x="" y="">com.google.common.util.concurrent.CollectionFuture</node>
+            <node x="" y="">java.util.ArrayPrefixHelpers.IntCumulateTask</node>
+            <node x="" y="">java.util.concurrent.RecursiveAction</node>
+            <node x="" y="">com.google.common.util.concurrent.CollectionFuture.ListFuture</node>
+            <node x="" y="">java.util.stream.ForEachOps.ForEachOrderedTask</node>
+            <node x="" y="">com.google.common.util.concurrent.ImmediateFuture.ImmediateSuccessfulCheckedFuture</node>
+            <node x="" y="">java.util.concurrent.CompletableFuture.AsyncSupply</node>
+            <node x="" y="">java.util.stream.Nodes.ToArrayTask</node>
+            <node x="" y="">com.google.common.util.concurrent.TrustedListenableFutureTask</node>
+            <node x="" y="">org.apache.http.concurrent.BasicFuture</node>
+            <node x="" y="">sun.nio.ch.PendingFuture</node>
+            <node x="" y="">java.util.concurrent.ConcurrentHashMap.ForEachTransformedEntryTask</node>
+            <node x="" y="">java.util.concurrent.ConcurrentHashMap.MapReduceValuesToLongTask</node>
+            <node x="" y="">com.google.common.util.concurrent.CollectionFuture.CollectionFutureRunningState</node>
+            <node x="" y="">java.util.concurrent.CompletableFuture.ThreadPerTaskExecutor</node>
+            <node x="" y="">java.util.stream.Nodes.SizedCollectorTask.OfDouble</node>
+            <node x="" y="">java.util.concurrent.FutureTask.WaitNode</node>
+            <node x="" y="">java.util.stream.Nodes.CollectorTask.OfInt</node>
+            <node x="" y="">java.util.concurrent.CompletableFuture.CoCompletion</node>
+            <node x="" y="">java.util.concurrent.CompletableFuture.UniExceptionally</node>
+            <node x="" y="">com.google.common.util.concurrent.AbstractFuture.Cancellation</node>
+            <node x="" y="">java.util.ArraysParallelSortHelpers.FJByte.Sorter</node>
+            <node x="" y="">java.util.concurrent.ConcurrentHashMap.ForEachTransformedKeyTask</node>
+            <node x="" y="">java.util.stream.ForEachOps.ForEachTask</node>
+            <node x="" y="">com.google.common.util.concurrent.AbstractCatchingFuture</node>
+            <node x="" y="">java.util.stream.Nodes.SizedCollectorTask</node>
+            <node x="" y="">java.util.concurrent.CompletableFuture.OrRelay</node>
+            <node x="" y="">java.util.concurrent.ConcurrentHashMap.MapReduceMappingsToIntTask</node>
+            <node x="" y="">java.util.concurrent.CompletableFuture.OrApply</node>
+            <node x="" y="">javafx.concurrent.Task.ProgressUpdate</node>
+            <node x="" y="">com.google.common.util.concurrent.CombinedFuture.CombinedFutureInterruptibleTask</node>
+            <node x="" y="">com.google.common.util.concurrent.Futures.InCompletionOrderFuture</node>
+            <node x="" y="">java.util.concurrent.RecursiveTask</node>
+            <node x="" y="">com.google.common.util.concurrent.CombinedFuture.AsyncCallableInterruptibleTask</node>
+            <node x="" y="">java.util.concurrent.CompletableFuture.OrAccept</node>
+            <node x="" y="">java.util.concurrent.CompletableFuture.AsynchronousCompletionTask</node>
+            <node x="" y="">java.util.stream.Nodes.CollectorTask</node>
+            <node x="" y="">com.google.common.util.concurrent.SettableFuture</node>
+            <node x="" y="">java.util.ArrayPrefixHelpers.DoubleCumulateTask</node>
+            <node x="" y="">java.util.concurrent.ConcurrentHashMap.MapReduceEntriesToIntTask</node>
+            <node x="" y="">java.util.concurrent.ConcurrentHashMap.ReduceKeysTask</node>
+            <node x="" y="">java.util.stream.Nodes.ToArrayTask.OfLong</node>
+            <node x="" y="">com.google.common.util.concurrent.ListenableFutureTask</node>
+            <node x="" y="">com.google.common.util.concurrent.AbstractCheckedFuture</node>
+            <node x="" y="">java.util.concurrent.ConcurrentHashMap.ForEachMappingTask</node>
+            <node x="" y="">java.util.concurrent.ConcurrentHashMap.MapReduceEntriesToDoubleTask</node>
+            <node x="" y="">com.google.common.util.concurrent.ImmediateFuture</node>
+            <node x="" y="">java.util.concurrent.ForkJoinPool.EmptyTask</node>
+            <node x="" y="">java.util.ArraysParallelSortHelpers.FJShort.Merger</node>
+            <node x="" y="">com.google.common.util.concurrent.AbstractFuture.Waiter</node>
+            <node x="" y="">com.google.common.util.concurrent.TrustedListenableFutureTask.TrustedFutureInterruptibleTask</node>
+            <node x="" y="">java.util.concurrent.CompletableFuture.UniAccept</node>
+            <node x="" y="">java.util.concurrent.ConcurrentHashMap.ReduceEntriesTask</node>
+            <node x="" y="">org.apache.http.pool.PoolEntryFuture</node>
+            <node x="" y="">java.util.ArraysParallelSortHelpers.FJInt.Merger</node>
+            <node x="" y="">java.util.ArraysParallelSortHelpers.FJShort.Sorter</node>
+            <node x="" y="">java.util.stream.Nodes.ToArrayTask.OfPrimitive</node>
+            <node x="" y="">java.util.concurrent.ForkJoinTask.AdaptedRunnableAction</node>
+            <node x="" y="">com.google.common.util.concurrent.Futures.MappingCheckedFuture</node>
+            <node x="" y="">java.util.stream.ReduceOps.ReduceTask</node>
+            <node x="" y="">com.google.common.util.concurrent.CombinedFuture.CallableInterruptibleTask</node>
+            <node x="" y="">com.google.common.util.concurrent.ListenableFuture</node>
+            <node x="" y="">java.util.concurrent.ConcurrentHashMap.MapReduceValuesToIntTask</node>
+            <node x="" y="">java.util.concurrent.CompletableFuture</node>
+            <node x="" y="">com.sun.javafx.tk.RenderJob</node>
+            <node x="" y="">java.util.ArrayPrefixHelpers.LongCumulateTask</node>
+            <node x="" y="">com.google.common.util.concurrent.AbstractFuture.UnsafeAtomicHelper</node>
+            <node x="" y="">java.util.concurrent.ConcurrentHashMap.ReduceValuesTask</node>
+            <node x="" y="">java.util.concurrent.RunnableFuture</node>
+            <node x="" y="">java.util.stream.MatchOps.MatchTask</node>
+            <node x="" y="">java.util.concurrent.ConcurrentHashMap.MapReduceKeysTask</node>
+            <node x="" y="">com.google.common.util.concurrent.AbstractCatchingFuture.AsyncCatchingFuture</node>
+            <node x="" y="">java.util.ArraysParallelSortHelpers.FJObject.Merger</node>
+            <node x="" y="">com.google.common.util.concurrent.AbstractFuture.AtomicHelper</node>
+            <node x="" y="">com.google.common.util.concurrent.AbstractFuture.Listener</node>
+            <node x="" y="">com.google.common.util.concurrent.CombinedFuture</node>
+            <node x="" y="">java.util.stream.Nodes.ToArrayTask.OfDouble</node>
+            <node x="" y="">com.google.common.util.concurrent.ForwardingCheckedFuture</node>
+            <node x="" y="">com.google.common.util.concurrent.TimeoutFuture.Fire</node>
+            <node x="" y="">java.util.concurrent.ForkJoinTask.ExceptionNode</node>
+            <node x="" y="">java.util.concurrent.ConcurrentHashMap.SearchMappingsTask</node>
+            <node x="" y="">java.util.concurrent.CompletableFuture.UniRelay</node>
+            <node x="" y="">java.util.concurrent.CompletableFuture.OrRun</node>
+            <node x="" y="">com.google.common.util.concurrent.JdkFutureAdapters.ListenableFutureAdapter</node>
+            <node x="" y="">com.google.common.util.concurrent.AbstractFuture.TrustedFuture</node>
+            <node x="" y="">java.util.concurrent.CompletableFuture.Signaller</node>
+            <node x="" y="">java.util.stream.Nodes.ToArrayTask.OfInt</node>
+            <node x="" y="">com.google.common.util.concurrent.CheckedFuture</node>
+            <node x="" y="">java.util.concurrent.ConcurrentHashMap.MapReduceValuesTask</node>
+            <node x="" y="">java.util.concurrent.ScheduledThreadPoolExecutor.ScheduledFutureTask</node>
+            <node x="" y="">com.google.common.util.concurrent.GwtFluentFutureCatchingSpecialization</node>
+            <node x="" y="">com.sun.xml.internal.ws.util.CompletedFuture</node>
+            <node x="" y="">com.google.common.util.concurrent.AbstractFuture.Failure</node>
+            <node x="" y="">java.util.concurrent.ConcurrentHashMap.MapReduceEntriesToLongTask</node>
+            <node x="" y="">sun.nio.ch.CompletedFuture</node>
+            <node x="" y="">javax.swing.SwingWorker</node>
+            <node x="" y="">javax.swing.SwingWorker.DoSubmitAccumulativeRunnable</node>
+            <node x="" y="">com.google.common.util.concurrent.CombinedFuture.CombinedFutureRunningState</node>
+            <node x="" y="">java.util.concurrent.ConcurrentHashMap.MapReduceKeysToDoubleTask</node>
+            <node x="" y="">java.util.concurrent.CompletableFuture.UniRun</node>
+            <node x="" y="">com.google.common.util.concurrent.MoreExecutors.ScheduledListeningDecorator.NeverSuccessfulListenableFutureTask</node>
+            <node x="" y="">com.sun.xml.internal.ws.client.AsyncResponseImpl</node>
+            <node x="" y="">java.util.concurrent.CompletableFuture.UniHandle</node>
+            <node x="" y="">java.util.stream.Nodes.CollectorTask.OfRef</node>
+            <node x="" y="">com.google.common.util.concurrent.ForwardingListenableFuture</node>
+            <node x="" y="">com.google.common.util.concurrent.AbstractScheduledService.CustomScheduler.ReschedulableCallable</node>
+            <node x="" y="">java.util.concurrent.CompletableFuture.UniCompletion</node>
+            <node x="" y="">com.google.common.util.concurrent.AbstractTransformFuture.TransformFuture</node>
+            <node x="" y="">java.util.concurrent.ConcurrentHashMap.MapReduceEntriesTask</node>
+            <node x="" y="">java.util.concurrent.CompletableFuture.Completion</node>
+            <node x="" y="">java.util.concurrent.CompletableFuture.AltResult</node>
+            <node x="" y="">com.google.common.util.concurrent.Futures.NonCancellationPropagatingFuture</node>
+            <node x="" y="">java.util.stream.Nodes.SizedCollectorTask.OfLong</node>
+            <node x="" y="">com.google.common.util.concurrent.ForwardingFuture.SimpleForwardingFuture</node>
+            <node x="" y="">java.util.concurrent.FutureTask</node>
+            <node x="" y="">java.util.concurrent.CompletableFuture.BiRelay</node>
+            <node x="" y="">java.util.ArraysParallelSortHelpers.FJObject.Sorter</node>
+            <node x="" y="">com.google.common.util.concurrent.AbstractTransformFuture</node>
+            <node x="" y="">com.google.common.util.concurrent.AggregateFuture</node>
+            <node x="" y="">java.util.concurrent.CompletableFuture.BiCompletion</node>
+            <node x="" y="">jdk.management.resource.internal.FutureWrapper</node>
+            <node x="" y="">java.util.stream.Nodes.CollectorTask.OfLong</node>
+            <node x="" y="">java.util.stream.Nodes.SizedCollectorTask.OfInt</node>
+            <node x="" y="">java.util.concurrent.ConcurrentHashMap.MapReduceMappingsTask</node>
+            <node x="" y="">com.google.common.util.concurrent.AbstractFuture.SetFuture</node>
+            <node x="" y="">com.google.common.util.concurrent.TrustedListenableFutureTask.TrustedFutureInterruptibleAsyncTask</node>
+            <node x="" y="">java.util.concurrent.ConcurrentHashMap.MapReduceMappingsToDoubleTask</node>
+            <node x="" y="">javax.swing.JEditorPane.PageLoader</node>
+            <node x="" y="">java.util.ArraysParallelSortHelpers.FJInt.Sorter</node>
+            <node x="" y="">java.util.concurrent.CompletableFuture.BiApply</node>
+            <node x="" y="">javax.xml.ws.Response</node>
+            <node x="" y="">java.util.concurrent.ConcurrentHashMap.ForEachTransformedMappingTask</node>
+            <node x="" y="">java.util.concurrent.ConcurrentHashMap.ForEachValueTask</node>
+            <node x="" y="">java.util.concurrent.CompletableFuture.BiRun</node>
+            <node x="" y="">java.util.ArraysParallelSortHelpers.FJLong.Merger</node>
+            <node x="" y="">java.util.concurrent.ScheduledFuture</node>
+            <node x="" y="">java.util.concurrent.ConcurrentHashMap.SearchEntriesTask</node>
+            <node x="" y="">java.util.concurrent.ForkJoinTask.RunnableExecuteAction</node>
+            <node x="" y="">com.google.common.util.concurrent.AbstractFuture.SafeAtomicHelper</node>
+            <node x="" y="">com.google.common.util.concurrent.TimeoutFuture</node>
+            <node x="" y="">com.google.common.util.concurrent.ImmediateFuture.ImmediateCancelledFuture</node>
+            <node x="" y="">java.util.stream.Nodes.SizedCollectorTask.OfRef</node>
+            <node x="" y="">java.util.ArraysParallelSortHelpers.FJFloat.Sorter</node>
+            <node x="" y="">com.google.common.util.concurrent.ForwardingFluentFuture</node>
+            <node x="" y="">java.util.concurrent.CompletableFuture.BiAccept</node>
+            <node x="" y="">javafx.concurrent.Task</node>
+            <node x="" y="">com.google.common.util.concurrent.AggregateFuture.RunningState</node>
+            <node x="" y="">javax.swing.SwingWorker.StateValue</node>
+            <node x="" y="">java.util.concurrent.ConcurrentHashMap.ForEachKeyTask</node>
+            <node x="" y="">java.util.concurrent.CompletableFuture.UniCompose</node>
+            <node x="" y="">java.util.concurrent.ConcurrentHashMap.ForEachTransformedValueTask</node>
+            <node x="" y="">java.util.concurrent.ConcurrentHashMap.BulkTask</node>
+            <node x="" y="">java.util.ArrayPrefixHelpers.CumulateTask</node>
+            <node x="" y="">java.util.concurrent.CompletableFuture.AsyncRun</node>
+            <node x="" y="">org.apache.commons.lang3.concurrent.ConcurrentUtils.ConstantFuture</node>
+            <node x="" y="">java.util.stream.Nodes.ToArrayTask.OfRef</node>
+            <node x="" y="">com.google.common.util.concurrent.ForwardingFuture</node>
+            <node x="" y="">java.util.ArraysParallelSortHelpers.FJByte.Merger</node>
+            <node x="" y="">java.util.concurrent.ConcurrentHashMap.MapReduceKeysToIntTask</node>
+            <node x="" y="">java.util.stream.AbstractShortCircuitTask</node>
+            <node x="" y="">java.util.stream.SliceOps.SliceTask</node>
+            <node x="" y="">java.util.concurrent.ConcurrentHashMap.SearchValuesTask</node>
+            <node x="" y="">java.util.ArraysParallelSortHelpers.Relay</node>
+            <node x="" y="">org.apache.http.impl.client.HttpRequestFutureTask</node>
+            <node x="" y="">java.util.concurrent.CompletableFuture.UniWhenComplete</node>
+            <node x="" y="">java.util.ArraysParallelSortHelpers.FJFloat.Merger</node>
+            <node x="" y="">com.google.common.util.concurrent.ImmediateFuture.ImmediateFailedCheckedFuture</node>
+            <node x="" y="">com.google.common.util.concurrent.ImmediateFuture.ImmediateSuccessfulFuture</node>
+            <node x="" y="">java.util.concurrent.ConcurrentHashMap.MapReduceMappingsToLongTask</node>
+            <node x="" y="">java.util.stream.Nodes.CollectorTask.OfDouble</node>
+            <node x="" y="">com.google.common.util.concurrent.AbstractCatchingFuture.CatchingFuture</node>
+            <node x="" y="">java.util.concurrent.ExecutorCompletionService.QueueingFuture</node>
+            <node x="" y="">java.util.ArraysParallelSortHelpers.FJDouble.Sorter</node>
+            <node x="" y="">java.util.ArraysParallelSortHelpers.EmptyCompleter</node>
+            <node x="" y="">com.sun.javafx.tk.quantum.PaintRenderJob</node>
+            <node x="" y="">java.util.ArraysParallelSortHelpers.FJChar.Sorter</node>
+            <node x="" y="">javafx.concurrent.Task.TaskCallable</node>
+            <node x="" y="">java.util.concurrent.ForkJoinTask.AdaptedRunnable</node>
+            <node x="" y="">com.google.common.util.concurrent.CollectionFuture.ListFuture.ListFutureRunningState</node>
+            <node x="" y="">com.google.common.util.concurrent.ForwardingListenableFuture.SimpleForwardingListenableFuture</node>
+            <node x="" y="">com.google.common.util.concurrent.MoreExecutors.ScheduledListeningDecorator.ListenableScheduledTask</node>
+            <node x="" y="">com.google.common.util.concurrent.AbstractTransformFuture.AsyncTransformFuture</node>
+            <node x="" y="">java.util.concurrent.ForkJoinTask</node>
+            <node x="" y="">java.util.concurrent.ConcurrentHashMap.SearchKeysTask</node>
+            <node x="" y="">java.util.concurrent.ConcurrentHashMap.ForEachEntryTask</node>
+            <node x="" y="">java.util.stream.FindOps.FindTask</node>
+            <node x="" y="">java.util.concurrent.ConcurrentHashMap.MapReduceValuesToDoubleTask</node>
+            <node x="" y="">javax.swing.SwingWorker.SwingWorkerPropertyChangeSupport</node>
+            <node x="" y="">com.google.common.util.concurrent.ListenableScheduledFuture</node>
+            <node x="" y="">java.util.concurrent.ForkJoinTask.AdaptedCallable</node>
+            <node x="" y="">com.google.common.util.concurrent.AbstractFuture</node>
+            <node x="" y="">com.google.common.util.concurrent.FluentFuture</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="2296.0" y="256.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.2.0/rxjava-1.2.0-sources.jar!/rx/internal/operators/BlockingOperatorToFuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="30" column="43" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.2.0/rxjava-1.2.0.jar!/rx/internal/operators/BlockingOperatorToFuture.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="84" column="17" selection-start-line="82" selection-start-column="23" selection-end-line="84" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/Future.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="126" column="12" selection-start-line="126" selection-start-column="12" selection-end-line="126" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threads/future/FutureDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threads/future/CompletableFutureDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/CompletableFuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="1931" column="19" selection-start-line="1931" selection-start-column="13" selection-end-line="1931" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threads/future/async/ShopPriceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threads/future/async/Shop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="44" column="14" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threads/thread1/activeObject/DisplayStringRequest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/threads/thread1/activeObject/MakeStringRequest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/threads/thread1/activeObject/DisplayClientThread.java___jb_tmp___" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/threads/thread1/activeObject/ActiveObjectImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="943">
+          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threads/thread1/activeObject/ActiveObjectFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threads/thread1/activeObject/ActiveObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threads/thread1/activeObject/DisplayClientThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" selection-start-line="8" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threads/thread1/activeObject/MakerClientThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wsjk/HttpUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threads/thread1/activeObject/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threads/thread1/balking/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threads/thread1/thread_Specific_Storage/with/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threads/thread1/immutable/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threads/thread1/immutable/ReadThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/recursionjdk8/Dish.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/recursionjdk8/Dish2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <element signature="e#309#310#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/othertest/JustTess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/othertest/TestEasy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1-sources.jar!/org/apache/commons/httpclient/Header.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1749">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/recursionjdk8/ListSplitMany.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/recursionjdk8/CollectionByStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="48" column="62" selection-start-line="48" selection-start-column="62" selection-end-line="48" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WSJDCaptcha.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="76" column="46" selection-start-line="76" selection-start-column="46" selection-end-line="76" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threads/thread1/workerThread/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/othertest/LittleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1518">
+          <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/othertest/aa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.12.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>selfplay</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.alibaba:fastjson:1.2.37</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
