@@ -103,7 +103,11 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/gitTest/TestCommit.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="169">
+<<<<<<< HEAD
               <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+=======
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+>>>>>>> branchtest01
             </state>
           </provider>
         </entry>
@@ -270,7 +274,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="6">
+=======
+  <component name="ProjectFrameBounds" extendedState="7">
+>>>>>>> branchtest01
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
@@ -296,6 +304,7 @@
               <item name="selfplay" type="b2602c69:ProjectViewProjectNode" />
               <item name="selfplay" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
             <path>
               <item name="selfplay" type="b2602c69:ProjectViewProjectNode" />
               <item name="selfplay" type="462c0819:PsiDirectoryNode" />
@@ -343,6 +352,8 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="othertest" type="462c0819:PsiDirectoryNode" />
             </path>
+=======
+>>>>>>> branchtest01
           </expand>
           <select />
         </subPane>
@@ -602,7 +613,11 @@
       <workItem from="1539003656242" duration="797000" />
       <workItem from="1539351218657" duration="632000" />
       <workItem from="1539395785197" duration="1368000" />
+<<<<<<< HEAD
       <workItem from="1539517454206" duration="3212000" />
+=======
+      <workItem from="1539517454206" duration="3727000" />
+>>>>>>> branchtest01
     </task>
     <task id="LOCAL-00001" summary="first test">
       <created>1536307474717</created>
@@ -643,7 +658,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="392428000" />
+=======
+    <option name="totallyTimeSpent" value="392943000" />
+>>>>>>> branchtest01
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -655,7 +674,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+=======
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+>>>>>>> branchtest01
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32743362" />
@@ -667,10 +690,17 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3293944" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798927" weight="0.22304283" />
+<<<<<<< HEAD
       <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49932975" visible="true" weight="0.506647" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="5" sideWeight="0.78443116" visible="true" weight="0.1816354" />
+=======
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49932975" visible="true" weight="0.506647" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.78443116" visible="true" weight="0.1816354" />
+>>>>>>> branchtest01
       <window_info anchor="bottom" id="Find" order="1" weight="0.32890856" />
       <window_info anchor="right" id="Database" order="5" weight="0.3297587" />
       <window_info anchor="right" id="Structure" order="10" sideWeight="0.5014749" side_tool="true" weight="0.2761394" />
@@ -1433,7 +1463,11 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/gitTest/TestCommit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
+<<<<<<< HEAD
           <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+=======
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+>>>>>>> branchtest01
         </state>
       </provider>
     </entry>
