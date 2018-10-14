@@ -8,8 +8,8 @@ package gitTest;
  **/
 public class TestCommit {
     public static void main(String[] args) {
-        System.out.println("just  test git commit");
-        System.out.println("test git branchgit");
+        System.out.println("just  test masteradd  git commit");
+        System.out.println("test git masterchange");
         System.out.println("test github desktop");
     }
 }
