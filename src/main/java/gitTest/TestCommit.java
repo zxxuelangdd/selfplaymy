@@ -9,5 +9,6 @@ package gitTest;
 public class TestCommit {
     public static void main(String[] args) {
         System.out.println("just  test git commit");
+        System.out.println("branch add");
     }
 }
