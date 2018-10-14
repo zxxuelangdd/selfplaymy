@@ -71,7 +71,9 @@ public class WSJDCaptcha {
             fos = new FileOutputStream(file);
             bos = new BufferedOutputStream(fos);
             bos.write(img);
+            System.out.println();
         } catch (FileNotFoundException e) {
+            System.out.println();
             // TODO Auto-generated catch block
             e.printStackTrace();
         } catch (IOException e) {

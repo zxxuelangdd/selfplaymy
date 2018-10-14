@@ -1,0 +1,2 @@
+abstractDocument  抽象文档
+abstractFactory   抽象工厂
