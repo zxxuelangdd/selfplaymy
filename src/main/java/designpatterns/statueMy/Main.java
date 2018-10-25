@@ -16,6 +16,11 @@ public class Main {
         zoo.setRabbit("rabbitmq");
         stateOne.doYouWant(zoo);
 
+        Statetwo statetwo = new Statetwo();
+
+        Mystate mystate = new Mystate(statetwo);
+        mystate.getBaseState().doYouWant(zoo);
+
         CombinStatus combinStatus = new CombinStatus();
         combinStatus.setBaseState(stateOne);
         combinStatus.setPerson(person);

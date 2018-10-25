@@ -9,7 +9,7 @@ package designpatterns.statueMy;
 public class StateOne extends BaseState {
     @Override
     public void doYouWant(Object o) {
-        System.out.println(o+" 尝试Object");
+        System.out.println(o+" 尝试Object  StatuOne");
         System.out.println(o.toString());
     }
 

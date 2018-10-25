@@ -6,10 +6,10 @@ package designpatterns.statueMy;
  * @author: zx
  * @create: 2018-10-25 20:43
  **/
-public class Statetwo extends BaseState<Person> {
+public class Statetwo extends BaseState {
     @Override
-    public void doYouWant(Person person) {
-        System.out.println("StateTwo 2222222222--------");
-        System.out.println(person);
+    public void doYouWant(Object o) {
+        System.out.println(o+" 尝试Object  StatuTwo");
+        System.out.println(o.toString());
     }
 }
