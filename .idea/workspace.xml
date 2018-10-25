@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88fd19cd-45cf-4015-b100-6447e5b2fd6f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/state/ChildrenPrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/state/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/state/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/state/MovieException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/state/NewReleasePrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/state/Price.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/state/RegularlPrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/state/info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/statueMy/BaseState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/statueMy/CombinStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/statueMy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/statueMy/Mystate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/statueMy/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/statueMy/StateOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/statueMy/StateThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/statueMy/Statetwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/statueMy/Zoo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gitTest/TestCommit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gitTest/TestCommit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/WSJDCaptcha.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WSJDCaptcha.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/state/info" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/state/info" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -70,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/statueMy/StateOne.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="223">
-              <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+              <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -84,20 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="53" column="24" selection-start-line="44" selection-start-column="8" selection-end-line="53" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Statetwo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/statueMy/Statetwo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+            <state relative-caret-position="253">
+              <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -105,8 +77,8 @@
       <file leaf-file-name="StateThree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/statueMy/StateThree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+            <state relative-caret-position="253">
+              <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -114,8 +86,8 @@
       <file leaf-file-name="Mystate.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/statueMy/Mystate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="28" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="28" />
+            <state relative-caret-position="184">
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
               <folding>
                 <element signature="e#224#225#0" expanded="true" />
                 <element signature="e#266#267#0" expanded="true" />
@@ -124,20 +96,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/statueMy/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
+            <state relative-caret-position="181">
               <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CombinStatus.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/statueMy/CombinStatus.java">
+      <file leaf-file-name="Customer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/state/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+            <state relative-caret-position="184">
+              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="info" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/state/info">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -245,19 +226,19 @@
         <option value="$PROJECT_DIR$/src/main/java/designpatterns/state/MovieException.java" />
         <option value="$PROJECT_DIR$/src/main/java/designpatterns/state/Customer.java" />
         <option value="$PROJECT_DIR$/src/main/java/designpatterns/state/Movie.java" />
-        <option value="$PROJECT_DIR$/src/main/java/designpatterns/state/info" />
         <option value="$PROJECT_DIR$/src/main/java/designpatterns/statueMy/Person.java" />
         <option value="$PROJECT_DIR$/src/main/java/designpatterns/statueMy/Mystatus.java" />
-        <option value="$PROJECT_DIR$/src/main/java/designpatterns/statueMy/Mystate.java" />
         <option value="$PROJECT_DIR$/.idea/compiler.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/designpatterns/statueMy/CombinStatus.java" />
-        <option value="$PROJECT_DIR$/src/main/java/designpatterns/statueMy/StateThree.java" />
-        <option value="$PROJECT_DIR$/src/main/java/designpatterns/statueMy/Statetwo.java" />
         <option value="$PROJECT_DIR$/src/main/java/designpatterns/statueMy/BaseState.java" />
         <option value="$PROJECT_DIR$/src/main/java/designpatterns/statueMy/Zoo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/designpatterns/statueMy/Mystate.java" />
         <option value="$PROJECT_DIR$/src/main/java/designpatterns/statueMy/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/designpatterns/statueMy/Statetwo.java" />
         <option value="$PROJECT_DIR$/src/main/java/designpatterns/statueMy/StateOne.java" />
+        <option value="$PROJECT_DIR$/src/main/java/designpatterns/statueMy/StateThree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/designpatterns/state/info" />
       </list>
     </option>
   </component>
@@ -318,6 +299,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -358,6 +341,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="designpatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="state" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="selfplay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selfplay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="designpatterns" type="462c0819:PsiDirectoryNode" />
               <item name="statueMy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -365,8 +357,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -627,6 +617,7 @@
       <workItem from="1540215728201" duration="620000" />
       <workItem from="1540469584114" duration="2819000" />
       <workItem from="1540472441537" duration="1955000" />
+      <workItem from="1540475451711" duration="2153000" />
     </task>
     <task id="LOCAL-00001" summary="first test">
       <created>1536307474717</created>
@@ -663,11 +654,25 @@
       <option name="project" value="LOCAL" />
       <updated>1539519941372</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="branch commit test2">
+      <created>1540477458301</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1540477458301</updated>
+    </task>
+    <task id="LOCAL-00007" summary="branch commit test2">
+      <created>1540478056735</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1540478056735</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="401867000" />
+    <option name="totallyTimeSpent" value="404020000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -680,6 +685,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="PlantUML" order="3" />
       <window_info anchor="right" id="Palette" order="0" />
@@ -688,21 +694,21 @@
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info id="Image Layers" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50268096" side_tool="true" visible="true" weight="0.22304283" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5013405" side_tool="true" weight="0.07533235" />
       <window_info anchor="right" id="Maven Projects" order="4" sideWeight="0.6060606" visible="true" weight="0.34115282" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3293944" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49731904" weight="0.22304283" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49932975" weight="0.07533235" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49932975" weight="0.3293944" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4966488" weight="0.22304283" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49865952" visible="true" weight="0.5539143" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.7794677" visible="true" weight="0.1816354" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.7615894" visible="true" weight="0.1816354" />
       <window_info anchor="right" id="Database" order="6" weight="0.3297587" />
       <window_info anchor="right" id="Structure" order="11" sideWeight="0.5014749" side_tool="true" weight="0.2761394" />
       <window_info anchor="right" id="Ant Build" order="9" sideWeight="0.35758835" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info id="Favorites" order="4" sideWeight="0.22053231" side_tool="true" visible="true" weight="0.1816354" />
+      <window_info id="Favorites" order="4" sideWeight="0.23841059" side_tool="true" visible="true" weight="0.1816354" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.23042837" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
@@ -1083,20 +1089,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/state/info">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/state/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/state/Price.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -1113,50 +1105,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
+        <state relative-caret-position="1219">
           <caret line="53" column="24" selection-start-line="44" selection-start-column="8" selection-end-line="53" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/statueMy/CombinStatus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
+        <state relative-caret-position="299">
           <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/statueMy/StateThree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/statueMy/Statetwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/statueMy/Mystate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="28" />
-          <folding>
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/statueMy/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1174,17 +1131,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/statueMy/Mystate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/statueMy/Statetwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/statueMy/StateOne.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
-          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/statueMy/StateThree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/statueMy/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/statueMy/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
+        <state relative-caret-position="181">
           <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/state/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/state/info">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
         </state>
       </provider>
     </entry>
