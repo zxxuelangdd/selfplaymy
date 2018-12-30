@@ -1,8 +1,5 @@
 package arithmetic.heap;
 
-import java.util.*;
-import java.lang.*;
-
 // 在堆的有关操作中，需要比较堆中元素的大小，所以Item需要extends Comparable
 public class MaxHeap<Item extends Comparable> {
 
