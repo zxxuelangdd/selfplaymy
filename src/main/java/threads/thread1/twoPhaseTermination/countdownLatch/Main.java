@@ -12,14 +12,14 @@ import java.util.concurrent.Executors;
  * @create: 2018-09-09 07:52
  **/
 public class Main {
-    private static final int TASKS=10;
+    private static final int TASKS = 10;
 
     public static void main(String[] args) {
         System.out.println("BEGIN");
         ExecutorService service = Executors.newFixedThreadPool(20);
         CountDownLatch countDownLatch = new CountDownLatch(11);
 
-        new Thread(){
+        new Thread() {
             public void run() {
                 try {
                     Thread.sleep(5000);
@@ -32,7 +32,7 @@ public class Main {
 
         try {
             for (int i = 0; i < TASKS; i++) {
-                service.execute(new MyTask(countDownLatch,i));
+                service.execute(new MyTask(countDownLatch, i));
             }
             System.out.println("await");
 

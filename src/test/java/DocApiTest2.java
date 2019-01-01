@@ -26,42 +26,37 @@ public class DocApiTest2 {
         String url = "http://webapi.xfyun.cn/v1/service/v1/ocr/general";
         String appid = "5b5090bd";
         String appKey = "08ee36f0df4012f30f080687646e574e";
-        String curTime = String.valueOf(System.currentTimeMillis()/1000l);
+        String curTime = String.valueOf(System.currentTimeMillis() / 1000l);
         String xParam = "{\"language\": \"en\",\"location\": \"false\"}";
         String param = Base64.getEncoder().encodeToString(xParam.getBytes("UTF-8"));
 
         File file = new File("D:\\tem\\image\\6419.bmp");
 
 
-
         /**
-        InputStream inputStream = null;
-        byte[] data = null;
-        try {
-            inputStream = new FileInputStream("D:\\tem\\image\\6419.bmp");
-            data = new byte[inputStream.available()];
-            inputStream.read(data);
-            inputStream.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+         InputStream inputStream = null;
+         byte[] data = null;
+         try {
+         inputStream = new FileInputStream("D:\\tem\\image\\6419.bmp");
+         data = new byte[inputStream.available()];
+         inputStream.read(data);
+         inputStream.close();
+         } catch (IOException e) {
+         e.printStackTrace();
+         }
 
-        BASE64Encoder encoder = new BASE64Encoder();
-        String encode1 = encoder.encode(data);*/
-
-
-
+         BASE64Encoder encoder = new BASE64Encoder();
+         String encode1 = encoder.encode(data);*/
 
 
         InputStream fileInputStream = FileUtils.openInputStream(file);
 
 
-       String body = Base64.getEncoder().encodeToString(IOUtils.toByteArray(fileInputStream));
+        String body = Base64.getEncoder().encodeToString(IOUtils.toByteArray(fileInputStream));
 
-        String encode = URLEncoder.encode(body,"UTF-8");
+        String encode = URLEncoder.encode(body, "UTF-8");
 
         String checkSum = DigestUtils.md5Hex((appKey + curTime + param).getBytes());
-
 
 
         HttpPost httpPost = new HttpPost(url);
@@ -87,7 +82,7 @@ public class DocApiTest2 {
                 System.out.println(result);
             } else { // 失败
                 String desc = jsonObject.getString("desc");
-                System.out.println("******************解析失败******************"+desc);
+                System.out.println("******************解析失败******************" + desc);
             }
 
         }

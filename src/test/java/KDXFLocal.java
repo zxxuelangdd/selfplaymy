@@ -1,4 +1,3 @@
-import com.asprise.ocr.Ocr;
 import org.apache.commons.codec.binary.Base64;
 
 import java.io.File;
@@ -14,7 +13,7 @@ import java.io.IOException;
 public class KDXFLocal {
 
     public static void main(String[] args) {
-        String filePath="D:\\tem\\image";
+        String filePath = "D:\\tem\\image";
         File file = new File(filePath);
         File[] files = file.listFiles();
         for (File file1 : files) {
@@ -22,12 +21,12 @@ public class KDXFLocal {
             try {
                 FileInputStream fis = new FileInputStream(file1);
                 System.out.print(file.length());
-                byte[] buffer = new byte[(int)file.length()];
+                byte[] buffer = new byte[(int) file.length()];
                 System.out.print(buffer.length);
                 fis.read(buffer);
                 fis.close();
                 String encodeToString = b64.encodeToString(buffer);
-                System.out.println(file1.getName()+"==========="+encodeToString);
+                System.out.println(file1.getName() + "===========" + encodeToString);
 
             } catch (IOException e) {
                 e.printStackTrace();

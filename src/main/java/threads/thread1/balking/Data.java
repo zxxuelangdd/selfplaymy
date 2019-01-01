@@ -1,6 +1,5 @@
 package threads.thread1.balking;
 
-import java.io.FileWriter;
 import java.io.IOException;
 
 /**
@@ -11,8 +10,8 @@ import java.io.IOException;
  **/
 public class Data {
     private final String filename;
-    private  String content;
-    private  boolean changed;
+    private String content;
+    private boolean changed;
 
     public Data(String filename, String content) {
         this.filename = filename;
@@ -21,21 +20,22 @@ public class Data {
     }
 
     //修改保存数据
-    public synchronized void change(String newConteng){
-        content=newConteng;
-        changed=true;
-        System.out.println(Thread.currentThread().getName()+" change:"+content);
+    public synchronized void change(String newConteng) {
+        content = newConteng;
+        changed = true;
+        System.out.println(Thread.currentThread().getName() + " change:" + content);
     }
+
     public synchronized void save() throws IOException {
-        if(!changed){
+        if (!changed) {
             return;
         }
         dosave();
-        changed=false;
+        changed = false;
     }
 
     private void dosave() throws IOException {
-        System.out.println(Thread.currentThread().getName()+" dosave:"+content);
+        System.out.println(Thread.currentThread().getName() + " dosave:" + content);
        /* FileWriter fileWriter = new FileWriter(filename);
         fileWriter.write(content);
         fileWriter.close();*/

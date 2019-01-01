@@ -26,7 +26,7 @@ public class MyTask extends Thread {
     }
 
     private void doTask() {
-        if(context>1){
+        if (context > 1) {
             System.out.println("大于3 睡一会");
             try {
                 Thread.sleep(2000);
@@ -35,12 +35,12 @@ public class MyTask extends Thread {
             }
         }
         String name = Thread.currentThread().getName();
-        System.out.println(name+"   myTask begin context="+context);
+        System.out.println(name + "   myTask begin context=" + context);
         try {
             Thread.sleep(ThreadLocalRandom.current().nextInt(300));
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        System.out.println(name+"   myTask end context="+context);
+        System.out.println(name + "   myTask end context=" + context);
     }
 }

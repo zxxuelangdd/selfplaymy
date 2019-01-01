@@ -20,38 +20,39 @@ import java.util.HashMap;
 import java.util.Map;
 /**
  * question 这个网站验证逻辑
- *          关于 验证码  验证码有时候会带回来一个JSESSIONID   在用这个JSESSIONID去请求后台
- *         这个JSESSIONID会缓存最近一次查询  不需要使用验证码即可查询
- *         这个 JSESSIONID 的使用很重要  每一次不一定会有一个确定的结果
- *
- * */
+ * 关于 验证码  验证码有时候会带回来一个JSESSIONID   在用这个JSESSIONID去请求后台
+ * 这个JSESSIONID会缓存最近一次查询  不需要使用验证码即可查询
+ * 这个 JSESSIONID 的使用很重要  每一次不一定会有一个确定的结果
+ */
+
 /**
  * @description: 实现卫生监督的查询功能, 包括验证码识别和再次请求
  **/
 public class WSJDimpljson {
 
-    private static  final String JSESSIONID="JSESSIONID";
+    private static final String JSESSIONID = "JSESSIONID";
 
 
-    private static Logger logger=LoggerFactory.getLogger(WSJDimpljson.class);
+    private static Logger logger = LoggerFactory.getLogger(WSJDimpljson.class);
+
     public static void main(String[] args) {
 
 //        String re = wsjdSearchClinicService("呼和浩特美年大健康体检有限公司云鼎门诊部");
 //        String re = wsjdSearchClinicService("深圳安安诊所");
-         String re = wsjdSearchClinicService("北京同仁堂");
-        logger.info("result=============="+re);
+        String re = wsjdSearchClinicService("北京同仁堂");
+        logger.info("result==============" + re);
     }
 
-    private static String  wsjdSearchClinicService(String name){
-        WsjdSearchRes wsjdSearchRes = new  WsjdSearchRes();
-        System.out.println("=="+StringUtils.isBlank(name));
-        System.out.println("=="+StringUtils.isNumeric(name));
-        System.out.println("=="+StringUtils.isAlpha(name));
-        System.out.println("=="+StringUtils.isNumeric(name));
-        if (StringUtils.isBlank(name) || StringUtils.isNumeric(name) || name.length()<4){
+    private static String wsjdSearchClinicService(String name) {
+        WsjdSearchRes wsjdSearchRes = new WsjdSearchRes();
+        System.out.println("==" + StringUtils.isBlank(name));
+        System.out.println("==" + StringUtils.isNumeric(name));
+        System.out.println("==" + StringUtils.isAlpha(name));
+        System.out.println("==" + StringUtils.isNumeric(name));
+        if (StringUtils.isBlank(name) || StringUtils.isNumeric(name) || name.length() < 4) {
             wsjdSearchRes.setCode("-1");
             wsjdSearchRes.setMessage("Illegal parameter");
-        }else {
+        } else {
             System.out.println("开始测试");
             String userAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36";
             //baseurl  访问网站,获取一个有效的 jsessionid;
@@ -80,7 +81,7 @@ public class WSJDimpljson {
                     break;
             }
             String jsessionid = response.cookie(JSESSIONID);
-            System.out.println("jsessionid----------------------------------"+jsessionid);
+            System.out.println("jsessionid----------------------------------" + jsessionid);
             long millis1 = System.currentTimeMillis();
             logger.info("反应时间" + (millis1 - millis));
 
@@ -100,27 +101,27 @@ public class WSJDimpljson {
             }
             byte[] img = imagedoc.bodyAsBytes();
             String jsessionidre = imagedoc.cookie("JSESSIONID");
-            System.out.println("---------------------------jsessionidre----------------------"+jsessionidre);
+            System.out.println("---------------------------jsessionidre----------------------" + jsessionidre);
             String recs = null;
             //识别验证码
             for (int j = 0; j < 3; j++) {
                 try {
                     recs = XFRecognizeWordsUtils.discernImage(img);
-                    System.out.println("识别结果:"+recs);
-                    System.out.println("======================"+recs.length());
+                    System.out.println("识别结果:" + recs);
+                    System.out.println("======================" + recs.length());
                 } catch (UnsupportedEncodingException e) {
                     wsjdSearchRes.setCode("4");
                     wsjdSearchRes.setMessage("网页验证码识别异常");
                     logger.error("识别验证码出错", e);
                 }
 
-                if (recs != null)break;
+                if (recs != null) break;
             }
 
             for (int k = 0; k < 2; k++) {
                 try {
                     String url = searchUrl + "?NAME=" + URLEncoder.encode(name, "UTF-8") + "&PASSCODE=&BEGIN_DATE=&END_DATE=&validCode=" + recs;
-                   Document document = Jsoup.connect(url).userAgent(userAgent).cookie("JSESSIONID", jsessionidre).timeout(60000).get();
+                    Document document = Jsoup.connect(url).userAgent(userAgent).cookie("JSESSIONID", jsessionidre).timeout(60000).get();
                     //Document document = Jsoup.connect(url).userAgent(userAgent).cookie("JSESSIONID", "D21FAF3FE8AF2CEEDA1E2778036B8A28.portal01").timeout(10000).get();
 /*
                     System.out.println("************************************************");
@@ -129,8 +130,8 @@ public class WSJDimpljson {
 
                     toSearchResult(document, wsjdSearchRes);
                     //通过判断是否为空继续请求
-                    logger.info("请求最终结果 根据document判断是否使用第二次机会开始请求"+k);
-                    if(!document.isBlock())break;
+                    logger.info("请求最终结果 根据document判断是否使用第二次机会开始请求" + k);
+                    if (!document.isBlock()) break;
 
                 } catch (IOException e) {
                     wsjdSearchRes.setCode("5");
@@ -138,7 +139,7 @@ public class WSJDimpljson {
                     logger.error("查询结果出错", e);
                     //e.printStackTrace();
                 }
-                System.out.println("查询最终结果次数:"+k);
+                System.out.println("查询最终结果次数:" + k);
             }
         }
 
@@ -151,22 +152,22 @@ public class WSJDimpljson {
 
     }
 
-    private static void toSearchResult(Document document,WsjdSearchRes wsjdSearchRes) {
+    private static void toSearchResult(Document document, WsjdSearchRes wsjdSearchRes) {
         Elements select = document.getElementById("formresult").select("tbody tr");
-        System.out.println("获取的长度:"+select.size());
+        System.out.println("获取的长度:" + select.size());
 
 
-        ArrayList<Map<String,String>> list = Lists.newArrayList();
+        ArrayList<Map<String, String>> list = Lists.newArrayList();
         int size = select.size();
-        if(size==0){
+        if (size == 0) {
             wsjdSearchRes.setCode("2");
             wsjdSearchRes.setMessage("未能查询到结果");
             return;
-        }else if (size == 1 ){
+        } else if (size == 1) {
             wsjdSearchRes.setCode("0");
             wsjdSearchRes.setMessage("success");
 
-        }else{
+        } else {
             wsjdSearchRes.setCode("1");
             wsjdSearchRes.setMessage("查询结不准确,查询到多条,此处仅展示第一页");
         }
@@ -177,42 +178,38 @@ public class WSJDimpljson {
                 Elements tds = element.select("td");
                 //机构名称
                 String name = tds.get(0).text();
-                map.put("name",name);
+                map.put("name", name);
                 //机构类别
                 String category = tds.get(1).text();
-                map.put("category",category);
+                map.put("category", category);
                 //机构地址
                 String address = tds.get(2).text();
-                map.put("address",address);
+                map.put("address", address);
                 //批准文号
                 String approveNo = tds.get(3).text();
-                map.put("approveNo",approveNo);
+                map.put("approveNo", approveNo);
                 //发证机关
                 String demp = tds.get(4).text();
-                map.put("demp",demp);
+                map.put("demp", demp);
                 //有效期开始日期
                 String validityDateStart = tds.get(5).text();
-                map.put("validityDateStart",validityDateStart);
+                map.put("validityDateStart", validityDateStart);
                 //有效截止日期
                 String validityDateEnd = tds.get(6).text();
-                map.put("validityDateEnd",validityDateEnd);
+                map.put("validityDateEnd", validityDateEnd);
                 boolean empty = map.isEmpty();
                 if (empty)
                     continue;
                 list.add(map);
                 //   System.out.println("tr=============="+element.text());
-            }catch (Exception e){
-                logger.error("解析请求结果异常",e);
+            } catch (Exception e) {
+                logger.error("解析请求结果异常", e);
             }
         }
         wsjdSearchRes.setData(list);
 
 
-
     }
-
-
-
 
 
 }

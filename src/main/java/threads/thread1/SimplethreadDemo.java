@@ -8,21 +8,23 @@ package threads.thread1;
  **/
 public class SimplethreadDemo {
     public static void main(String[] args) {
-          new PrintThread("a").start();
-          /**
-           * run 方法只是一个方法,并没有启动一个线程
-           * */
-          new PrintThread("b").run();
+        new PrintThread("a").start();
+        /**
+         * run 方法只是一个方法,并没有启动一个线程
+         * */
+        new PrintThread("b").run();
         System.out.println();
         System.out.println("ok");
     }
-    public static class PrintThread extends Thread{
+
+    public static class PrintThread extends Thread {
 
         private String str;
 
         public PrintThread(String str) {
             this.str = str;
         }
+
         public void run() {
             for (int i = 0; i < 1000; i++) {
                 try {

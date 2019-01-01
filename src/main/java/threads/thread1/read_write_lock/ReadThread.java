@@ -15,10 +15,10 @@ public class ReadThread extends Thread {
 
     @Override
     public void run() {
-        while (true){
+        while (true) {
             try {
                 char[] read = data.read();
-                System.out.println(Thread.currentThread().getName()+"  reads  "+String.valueOf(read));
+                System.out.println(Thread.currentThread().getName() + "  reads  " + String.valueOf(read));
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

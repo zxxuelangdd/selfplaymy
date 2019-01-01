@@ -9,9 +9,9 @@ import lombok.experimental.Accessors;
  * @author: zx
  **/
 @Data
-@Accessors(chain=true) //采用链式  相当于直接返回
+@Accessors(chain = true) //采用链式  相当于直接返回
 public class Dish2 {
-      public String name;
+    public String name;
 
     public Dish2(String name) {
         this.name = name;

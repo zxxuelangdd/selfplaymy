@@ -8,28 +8,30 @@ package threads.thread1.thread_Specific_Storage.with;
  **/
 public class Log {
 
-    private static final ThreadLocal<TSLog> tsLogCollection=new ThreadLocal<TSLog>();
+    private static final ThreadLocal<TSLog> tsLogCollection = new ThreadLocal<TSLog>();
 
     //写日志
-    public static void println(String s){
+    public static void println(String s) {
         getTsLog().println(s);
 
     }
-public static void close(){
+
+    public static void close() {
         getTsLog().close();
-}
+    }
+
     private static TSLog getTsLog() {
-        System.out.println(Thread.currentThread().getName()+"       getTsLog");
+        System.out.println(Thread.currentThread().getName() + "       getTsLog");
         //当前线程容器
         TSLog tsLog = tsLogCollection.get();
-        System.out.println(" tsLog -----"+tsLog);
-        if(tsLog==null){
+        System.out.println(" tsLog -----" + tsLog);
+        if (tsLog == null) {
 
             System.out.println("如果是第一次调用就生成和注册一个TsLog");
-            tsLog=new TSLog("D:\\"+Thread.currentThread().getName()+"-log.txt");
+            tsLog = new TSLog("D:\\" + Thread.currentThread().getName() + "-log.txt");
             tsLogCollection.set(tsLog);
         }
-        System.out.println(" tsLog ============="+tsLog);
-        return  tsLog;
+        System.out.println(" tsLog =============" + tsLog);
+        return tsLog;
     }
 }

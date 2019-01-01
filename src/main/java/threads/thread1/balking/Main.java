@@ -9,7 +9,7 @@ package threads.thread1.balking;
 public class Main {
     public static void main(String[] args) {
         Data data = new Data("D:\\balking.txt", "first");
-        new ChangeThread("ChangedThread",data).start();
-        new SaveThread("SaveThread",data).start();
+        new ChangeThread("ChangedThread", data).start();
+        new SaveThread("SaveThread", data).start();
     }
 }

@@ -1,6 +1,5 @@
 package threads.thread1.guardedsuspension;
 
-import javax.naming.Name;
 import java.util.Random;
 
 /**
@@ -9,11 +8,11 @@ import java.util.Random;
  * @author: zx
  * @create: 2018-08-29 20:39
  **/
-public class ServerThread extends Thread{
+public class ServerThread extends Thread {
     private final Random random;
     private final RequestQueue requestQueue;
 
-    public ServerThread(RequestQueue requestQueue,String name) {
+    public ServerThread(RequestQueue requestQueue, String name) {
         super(name);
         this.random = new Random();
         this.requestQueue = requestQueue;
@@ -21,9 +20,9 @@ public class ServerThread extends Thread{
 
     @Override
     public void run() {
-        for (int i=0;i<1000;i++){
+        for (int i = 0; i < 1000; i++) {
             Request request = requestQueue.getRequest();
-            System.out.println(Thread.currentThread().getName()+" handles "+request);
+            System.out.println(Thread.currentThread().getName() + " handles " + request);
 
             try {
                 Thread.sleep(random.nextInt(1000));
@@ -35,7 +34,7 @@ public class ServerThread extends Thread{
 
     public static void main(String[] args) {
         RequestQueue requestQueue = new RequestQueue();
-        new ClientThread(requestQueue,"Alicen").start();
-        new ServerThread(requestQueue,"Bobby").start();
+        new ClientThread(requestQueue, "Alicen").start();
+        new ServerThread(requestQueue, "Bobby").start();
     }
 }

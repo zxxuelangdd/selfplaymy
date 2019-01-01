@@ -11,15 +11,16 @@ import java.util.concurrent.Future;
  * @author: zx
  * @create: 2018-09-10 19:57
  **/
-public class ActiveObjectImpl implements ActiveObject{
-    private final ExecutorService service=Executors.newSingleThreadExecutor();
+public class ActiveObjectImpl implements ActiveObject {
+    private final ExecutorService service = Executors.newSingleThreadExecutor();
+
     public Future<String> makeString(final int count, final char c) {
-        class MakeStringRequest implements Callable<String>{
+        class MakeStringRequest implements Callable<String> {
             @Override
             public String call() {
                 char[] buffer = new char[count];
                 for (int i = 0; i < count; i++) {
-                    buffer[i]=c;
+                    buffer[i] = c;
                     try {
                         Thread.sleep(100);
                     } catch (InterruptedException e) {
@@ -34,10 +35,10 @@ public class ActiveObjectImpl implements ActiveObject{
     }
 
     public void displayString(final String string) {
-        class DisplayStringRequest implements Runnable{
+        class DisplayStringRequest implements Runnable {
             public void run() {
                 try {
-                    System.out.println("displayString:"+string);
+                    System.out.println("displayString:" + string);
                     Thread.sleep(10);
                 } catch (InterruptedException e) {
                     e.printStackTrace();

@@ -10,7 +10,7 @@ import lombok.Data;
  **/
 @Data
 public class Mystate {
-    private  BaseState baseState;
+    private BaseState baseState;
 
     public Mystate(BaseState baseState) {
         this.baseState = baseState;

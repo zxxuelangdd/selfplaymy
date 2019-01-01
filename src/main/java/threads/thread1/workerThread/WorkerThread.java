@@ -6,11 +6,11 @@ package threads.thread1.workerThread;
  * @author: zx
  * @create: 2018-09-03 20:42
  **/
-public class WorkerThread extends Thread{
+public class WorkerThread extends Thread {
     private final Channel channel;
 
 
-    public WorkerThread( String name,Channel channel) {
+    public WorkerThread(String name, Channel channel) {
         super(name);
         this.channel = channel;
     }
@@ -18,7 +18,7 @@ public class WorkerThread extends Thread{
 
     @Override
     public void run() {
-        while (true){
+        while (true) {
             Request request = channel.takeRequest();
             request.excute();
         }

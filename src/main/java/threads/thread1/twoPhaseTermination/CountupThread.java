@@ -8,14 +8,14 @@ package threads.thread1.twoPhaseTermination;
  **/
 public class CountupThread extends Thread {
     //计数值
-    private long counter=0;
+    private long counter = 0;
 
     //发出终止请求后变为true
-    private volatile boolean shutdownRequest=false;
+    private volatile boolean shutdownRequest = false;
 
     //终止请求
-    public void shutdownRequest(){
-        shutdownRequest=true;
+    public void shutdownRequest() {
+        shutdownRequest = true;
         //确保线程在sleep和wait的时候也会被终止
         System.out.println("调用现成的interrupt方法");
         interrupt();
@@ -31,7 +31,7 @@ public class CountupThread extends Thread {
     @Override
     public final void run() {
         try {
-            while (!isShutdownRequest()){
+            while (!isShutdownRequest()) {
                 dowork();
             }
             Thread.sleep(1000);
@@ -43,12 +43,12 @@ public class CountupThread extends Thread {
     }
 
     private void doshutdown() {
-        System.out.println("doshutdown:countter="+counter);
+        System.out.println("doshutdown:countter=" + counter);
     }
 
     private void dowork() throws InterruptedException {
         counter++;
-        System.out.println("dowork:counter="+counter);
+        System.out.println("dowork:counter=" + counter);
         Thread.sleep(500);
     }
 }

@@ -6,7 +6,7 @@ package designpatterns.adapt;
  * @author: zx
  * @create: 2018-09-06 11:16
  **/
-public class Chain220 implements Power{
+public class Chain220 implements Power {
 
     @Override
     public void connect() {

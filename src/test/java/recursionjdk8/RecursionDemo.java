@@ -15,12 +15,12 @@ import static java.util.stream.Collectors.toList;
  **/
 public class RecursionDemo {
     public static void main(String[] args) {
-        int i=100;
-       long a= factorialRecursion(i);
-        System.out.println("递归结果:"+a);
+        int i = 100;
+        long a = factorialRecursion(i);
+        System.out.println("递归结果:" + a);
 
         long l = factorialStream(i);
-        System.out.println("使用stream 进行阶乘:"+l);
+        System.out.println("使用stream 进行阶乘:" + l);
 
         List<String> words = Arrays.asList("Java 8", "Lambdas", "In", "Action");
         List<Integer> wordLengths = words.stream()
@@ -30,13 +30,14 @@ public class RecursionDemo {
     }
 
     private static long factorialRecursion(int i) {
-        return  i==1?1:i*factorialRecursion(i-1);
+        return i == 1 ? 1 : i * factorialRecursion(i - 1);
     }
 
     private static long factorialStream(int i) {
-        return LongStream.rangeClosed(1,i).reduce(1,(long a,long b)->a*b);
+        return LongStream.rangeClosed(1, i).reduce(1, (long a, long b) -> a * b);
     }
+
     private static long factor(int i) {
-        return IntStream.rangeClosed(1,i).reduce(1,(int a,int b)->a*b);
+        return IntStream.rangeClosed(1, i).reduce(1, (int a, int b) -> a * b);
     }
 }

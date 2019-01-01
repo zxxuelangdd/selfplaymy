@@ -8,14 +8,15 @@ package threads.thread1.read_write_lock;
  **/
 public class Data {
     private final char[] buffer;
-    private final ReadWriteLock lock=new ReadWriteLock();
+    private final ReadWriteLock lock = new ReadWriteLock();
 
     public Data(int size) {
         this.buffer = new char[size];
         for (int i = 0; i < buffer.length; i++) {
-            buffer[i]='*';
+            buffer[i] = '*';
         }
     }
+
     public char[] read() throws InterruptedException {
         lock.readLock();
         try {
@@ -28,11 +29,12 @@ public class Data {
     private char[] doread() throws InterruptedException {
         char[] chars = new char[buffer.length];
         for (int i = 0; i < chars.length; i++) {
-            chars[i] =buffer[i];
+            chars[i] = buffer[i];
         }
         Thread.sleep(500);
         return chars;
     }
+
     public void write(char a) throws InterruptedException {
 
         lock.writeLock();
@@ -48,7 +50,7 @@ public class Data {
 
     private void doWriter(char a) throws InterruptedException {
         for (int i = 0; i < buffer.length; i++) {
-             buffer[i]=a;
+            buffer[i] = a;
         }
 
         Thread.sleep(5000);
