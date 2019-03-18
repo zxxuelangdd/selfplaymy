@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88fd19cd-45cf-4015-b100-6447e5b2fd6f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/state/info" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/state/info" afterDir="false" />
-    </list>
+    <list default="true" id="88fd19cd-45cf-4015-b100-6447e5b2fd6f" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,7 +48,7 @@
       <file leaf-file-name="StateOne.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/statueMy/StateOne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
+            <state relative-caret-position="253">
               <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
             </state>
           </provider>
@@ -86,12 +84,8 @@
       <file leaf-file-name="Mystate.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/statueMy/Mystate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
+            <state relative-caret-position="230">
               <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-              <folding>
-                <element signature="e#224#225#0" expanded="true" />
-                <element signature="e#266#267#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -99,8 +93,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/statueMy/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+            <state relative-caret-position="368">
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -108,7 +102,7 @@
       <file leaf-file-name="Customer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/state/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
+            <state relative-caret-position="391">
               <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
             </state>
           </provider>
@@ -126,7 +120,7 @@
       <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/statueMy/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
+            <state relative-caret-position="253">
               <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -300,62 +294,44 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="selfplay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selfplay" type="462c0819:PsiDirectoryNode" />
+              <item name="selfplaymy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="selfplay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selfplay" type="462c0819:PsiDirectoryNode" />
+              <item name="selfplaymy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="selfplay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selfplay" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="selfplay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selfplay" type="462c0819:PsiDirectoryNode" />
+              <item name="selfplaymy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="selfplay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selfplay" type="462c0819:PsiDirectoryNode" />
+              <item name="selfplaymy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="designpatterns" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="selfplay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selfplay" type="462c0819:PsiDirectoryNode" />
+              <item name="selfplaymy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="designpatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="state" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="selfplay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selfplay" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="designpatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="statueMy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -363,7 +339,7 @@
     <property name="ToolWindowEvent Log.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -618,6 +594,7 @@
       <workItem from="1540469584114" duration="2819000" />
       <workItem from="1540472441537" duration="1955000" />
       <workItem from="1540475451711" duration="2153000" />
+      <workItem from="1552888827346" duration="612000" />
     </task>
     <task id="LOCAL-00001" summary="first test">
       <created>1536307474717</created>
@@ -672,7 +649,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="404020000" />
+    <option name="totallyTimeSpent" value="404632000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -685,31 +662,30 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="PlantUML" order="3" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32743362" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4953083" weight="0.32791728" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info id="Image Layers" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5013405" side_tool="true" weight="0.07533235" />
       <window_info anchor="right" id="Maven Projects" order="4" sideWeight="0.6060606" visible="true" weight="0.34115282" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49932975" weight="0.3293944" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4966488" weight="0.22304283" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49865952" visible="true" weight="0.5539143" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49932975" weight="0.3293944" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49865952" visible="true" weight="0.55243725" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.7615894" visible="true" weight="0.1816354" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.7590759" visible="true" weight="0.1816354" />
       <window_info anchor="right" id="Database" order="6" weight="0.3297587" />
       <window_info anchor="right" id="Structure" order="11" sideWeight="0.5014749" side_tool="true" weight="0.2761394" />
       <window_info anchor="right" id="Ant Build" order="9" sideWeight="0.35758835" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info id="Favorites" order="4" sideWeight="0.23841059" side_tool="true" visible="true" weight="0.1816354" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.23042837" />
+      <window_info id="Favorites" order="4" sideWeight="0.24092409" side_tool="true" visible="true" weight="0.1816354" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4953083" weight="0.32791728" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -721,6 +697,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -1133,12 +1135,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/statueMy/Mystate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
+        <state relative-caret-position="230">
           <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1151,7 +1149,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/statueMy/StateOne.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
+        <state relative-caret-position="253">
           <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
         </state>
       </provider>
@@ -1165,7 +1163,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/statueMy/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
+        <state relative-caret-position="253">
           <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1175,14 +1173,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/statueMy/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        <state relative-caret-position="368">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/state/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
+        <state relative-caret-position="391">
           <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
         </state>
       </provider>
