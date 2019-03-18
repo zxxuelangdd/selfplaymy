@@ -14,7 +14,7 @@ public class ReadThread extends Thread {
 
     public ReadThread(List<Integer> list, int n) {
         super("ReadThread");
-        this.n=n;
+        this.n = n;
         this.list = list;
     }
 
@@ -22,14 +22,14 @@ public class ReadThread extends Thread {
     public void run() {
 
         for (int i = 0; true; i++) {
-            System.out.println("---------"+i);
+            System.out.println("---------" + i);
             for (Integer n : list) {
-              /**  try {
-                    Thread.sleep(3);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }*/
-                System.out.println("read:"+n);
+                /**  try {
+                 Thread.sleep(3);
+                 } catch (InterruptedException e) {
+                 e.printStackTrace();
+                 }*/
+                System.out.println("read:" + n);
             }
         }
     }

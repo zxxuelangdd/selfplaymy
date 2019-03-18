@@ -17,15 +17,15 @@ public class Main {
         CommandOrder command = new CommandOrder("电视");
         //阻塞方式执行
         String execute = commandPhone.execute();
-        System.out.println("main "+execute);
+        System.out.println("main " + execute);
 
         //异步非阻塞方式
         Future<String> queue = command.queue();
         String value = queue.get(200, TimeUnit.MILLISECONDS);
-        System.out.println("main:"+value);
+        System.out.println("main:" + value);
         CommandUser commandUser = new CommandUser("张网格");
         String name = commandUser.execute();
-        System.out.println("main:"+name);
+        System.out.println("main:" + name);
 
     }
 }

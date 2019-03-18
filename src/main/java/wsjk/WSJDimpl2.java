@@ -38,7 +38,7 @@ public class WSJDimpl2 {
     // 语种
     private static final String LANGUAGE = "en";
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         try {
             wsjdSearchClinicService("北京同仁堂");
@@ -47,22 +47,22 @@ public class WSJDimpl2 {
         }
     }
 
-    private static void  wsjdSearchClinicService(String outername) throws UnsupportedEncodingException {
+    private static void wsjdSearchClinicService(String outername) throws UnsupportedEncodingException {
 
-        String name=URLEncoder.encode(outername,"UTF-8");
+        String name = URLEncoder.encode(outername, "UTF-8");
         //请求头 userAgent 没有也可以,习惯加上
-        String userAgent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36";
+        String userAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36";
         //baseurl  访问网站,获取一个有效的 jsessionid;
-        String baseurl="https://credit.wsjd.gov.cn/portal";
+        String baseurl = "https://credit.wsjd.gov.cn/portal";
         //imageUrl 该地址可以获取一个可用有时效的验证码,并可以获取一个新的jsessionid
-        String imageUrl="https://credit.wsjd.gov.cn/portal/captcha?temp=";
+        String imageUrl = "https://credit.wsjd.gov.cn/portal/captcha?temp=";
         //searchUrl 携带验证码识别结果和验证码返回的jsessionid和相关请求名称(需要进行url编码才有效)进行请求,获取结果
-        String searchUrl="https://credit.wsjd.gov.cn/portal/pubsearch/org/0114000000";
+        String searchUrl = "https://credit.wsjd.gov.cn/portal/pubsearch/org/0114000000";
         Connection con;
         for (int i = 0; i < 3; i++) {
             long millis = System.currentTimeMillis();
-             con = Jsoup.connect(baseurl).userAgent(userAgent).timeout(10000);
-            Connection.Response response=null;
+            con = Jsoup.connect(baseurl).userAgent(userAgent).timeout(10000);
+            Connection.Response response = null;
             try {
                 response = con.execute();
             } catch (IOException e) {
@@ -70,39 +70,39 @@ public class WSJDimpl2 {
             }
 
             String jsessionid = response.cookie("JSESSIONID");
-            System.out.println(i+"====== JSESSIONID:"+jsessionid);
+            System.out.println(i + "====== JSESSIONID:" + jsessionid);
             long millis1 = System.currentTimeMillis();
-            System.out.println("请求间隔差:"+(millis1-millis));
+            System.out.println("请求间隔差:" + (millis1 - millis));
 
-            Connection.Response imagedoc=null;
+            Connection.Response imagedoc = null;
 
             try {
-                imagedoc= Jsoup.connect(imageUrl).data("Accept","text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8").cookie("JSESSIONID",jsessionid).userAgent(userAgent).execute();
+                imagedoc = Jsoup.connect(imageUrl).data("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8").cookie("JSESSIONID", jsessionid).userAgent(userAgent).execute();
             } catch (IOException e) {
                 e.printStackTrace();
             }
             byte[] img = imagedoc.bodyAsBytes();
             String jsessionidre = imagedoc.cookie("JSESSIONID");
-            System.out.println(i+"--------jsessionidre----------"+jsessionidre);
-            String s=null;
+            System.out.println(i + "--------jsessionidre----------" + jsessionidre);
+            String s = null;
             //识别验证码
             for (int j = 0; j < 3; j++) {
                 try {
                     s = discernImage(img);
-                    if(s!=null)
+                    if (s != null)
                         break;
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
 
             }
-            if(s==null)
+            if (s == null)
                 return;
             try {
 
-                String a="https://credit.wsjd.gov.cn/portal/pubsearch/org/0114000000?NAME="+name+"&PASSCODE=&BEGIN_DATE=&END_DATE=&validCode="+s;
-            String url=searchUrl+"?NAME="+URLEncoder.encode(name,"UTF-8")+"&PASSCODE=&BEGIN_DATE=&END_DATE=&validCode="+s;
-                System.out.println("***************:"+url);
+                String a = "https://credit.wsjd.gov.cn/portal/pubsearch/org/0114000000?NAME=" + name + "&PASSCODE=&BEGIN_DATE=&END_DATE=&validCode=" + s;
+                String url = searchUrl + "?NAME=" + URLEncoder.encode(name, "UTF-8") + "&PASSCODE=&BEGIN_DATE=&END_DATE=&validCode=" + s;
+                System.out.println("***************:" + url);
                 //Document document = Jsoup.connect(url).userAgent(userAgent).cookie("JSESSIONID", jsessionidre).get();
                 Document document = Jsoup.connect(a).userAgent(userAgent).cookie("JSESSIONID", jsessionidre).timeout(10000).get();
                 Elements select2 = document.getElementById("formresult").select("tbody tr");
@@ -117,7 +117,6 @@ public class WSJDimpl2 {
             }
 
 
-
         }
 
 
@@ -128,20 +127,20 @@ public class WSJDimpl2 {
         System.out.println(document);
         System.out.println("-----------------------------");
         Elements select = document.getElementById("formresult").select("tbody tr");
-        System.out.println("获取的长度:"+select.size());
+        System.out.println("获取的长度:" + select.size());
 
 //        WsjdSearchRes wsjdSearchRes = WsjdSearchRes.PersonFactory();
         WsjdSearchRes wsjdSearchRes = new WsjdSearchRes();
-        ArrayList<Map<String,String>> list = Lists.newArrayList();
+        ArrayList<Map<String, String>> list = Lists.newArrayList();
         int size = select.size();
 
-        if(size==0){
+        if (size == 0) {
             wsjdSearchRes.setCode("1");
             wsjdSearchRes.setMessage("未能查询到结果");
-        }else if (size ==1 ){
+        } else if (size == 1) {
             wsjdSearchRes.setCode("0");
             wsjdSearchRes.setMessage("success");
-        }else{
+        } else {
             wsjdSearchRes.setCode("2");
             wsjdSearchRes.setMessage("查询结不准确,查询到多条,此处仅展示第一页");
         }
@@ -152,26 +151,26 @@ public class WSJDimpl2 {
             Elements tds = element.select("td");
             //机构名称
             String name = tds.get(0).text();
-            map.put("name",name);
+            map.put("name", name);
             //机构类别
             String category = tds.get(1).text();
-            map.put("category",category);
+            map.put("category", category);
             //机构地址
             String address = tds.get(2).text();
-            map.put("address",address);
+            map.put("address", address);
             //批准文号
             String approveNo = tds.get(3).text();
-            map.put("approveNo",approveNo);
+            map.put("approveNo", approveNo);
             //发证机关
             String demp = tds.get(4).text();
-            map.put("demp",demp);
+            map.put("demp", demp);
             //有效期开始日期
             String validityDateStart = tds.get(5).text();
-            map.put("validityDateStart",validityDateStart);
+            map.put("validityDateStart", validityDateStart);
 
             //有效截止日期
             String validityDateEnd = tds.get(6).text();
-            map.put("validityDateEnd",validityDateEnd);
+            map.put("validityDateEnd", validityDateEnd);
 
             boolean empty = map.isEmpty();
             if (empty)
@@ -218,7 +217,7 @@ public class WSJDimpl2 {
                 //System.out.println("有效截止日期:"+validityDateEnd);
             }*/
             System.out.println();
-         //   System.out.println("tr=============="+element.text());
+            //   System.out.println("tr=============="+element.text());
         }
         wsjdSearchRes.setData(list);
 
@@ -229,10 +228,11 @@ public class WSJDimpl2 {
         System.out.println(s);
         System.out.println("-----------------------");
 
-        System.out.println("wsjdSearchRes:"+wsjdSearchRes);
+        System.out.println("wsjdSearchRes:" + wsjdSearchRes);
         return s;
 
     }
+
     private static String discernImage(byte[] img) throws UnsupportedEncodingException {
         Map<String, String> header = buildHttpHeader();
         String imageBase64 = new String(Base64.encodeBase64(img), "UTF-8");
@@ -240,24 +240,24 @@ public class WSJDimpl2 {
         System.out.println("========================" + result);
         //解析获取验证码结果
         String recognition = getRecognition(result);
-        System.out.println("========================"+recognition);
+        System.out.println("========================" + recognition);
         return recognition;
     }
 
     private static String getRecognition(String result) {
         JSONObject jsonObject = new JSONObject(result);
         String code = jsonObject.getString("code");
-        if (code.equals("0")){
-           // String string = jsonObject.getJSONObject("data").getJSONArray("block").getJSONArray(1).getJSONArray(1).getJSONObject(0).getString("content");
+        if (code.equals("0")) {
+            // String string = jsonObject.getJSONObject("data").getJSONArray("block").getJSONArray(1).getJSONArray(1).getJSONObject(0).getString("content");
             try {
-                String string =  jsonObject.getJSONObject("data").getJSONArray("block").getJSONObject(0).getJSONArray("line").getJSONObject(0).getJSONArray("word").getJSONObject(0).getString("content");
+                String string = jsonObject.getJSONObject("data").getJSONArray("block").getJSONObject(0).getJSONArray("line").getJSONObject(0).getJSONArray("word").getJSONObject(0).getString("content");
                 return string;
             } catch (JSONException e) {
                 e.printStackTrace();
             }
             return null;
 
-        }else{
+        } else {
             return null;
         }
 

@@ -1,6 +1,5 @@
 package threads.thread1.activeObject;
 
-import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
 
 /**
@@ -9,7 +8,7 @@ import java.util.concurrent.Future;
  * @author: zx
  * @create: 2018-09-10 19:53
  **/
-public class MakerClientThread extends Thread{
+public class MakerClientThread extends Thread {
     private final ActiveObject activeObject;
     private final char fillchar;
 
@@ -22,14 +21,14 @@ public class MakerClientThread extends Thread{
     @Override
     public void run() {
         try {
-            for (int i=0;true;i++){
+            for (int i = 0; true; i++) {
                 Future<String> future = activeObject.makeString(i, fillchar);
                 Thread.sleep(10);
                 String s = future.get();
-                System.out.println(Thread.currentThread().getName()+"   :value="+s);
+                System.out.println(Thread.currentThread().getName() + "   :value=" + s);
             }
         } catch (Exception e) {
-            System.out.println(Thread.currentThread().getName()+"       "+e);
+            System.out.println(Thread.currentThread().getName() + "       " + e);
         }
     }
 }

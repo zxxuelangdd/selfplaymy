@@ -9,10 +9,10 @@ package threads.thread1.read_write_lock;
 public class Main {
     public static void main(String[] args) {
         Data data = new Data(10);
-        for (int i = 0; i <5; i++)
+        for (int i = 0; i < 5; i++)
             new ReadThread(data).start();
-        for (int i = 0; i <2; i++)
-            new WriteThread(data,"qweripasdjklzxcvbnm").start();
+        for (int i = 0; i < 2; i++)
+            new WriteThread(data, "qweripasdjklzxcvbnm").start();
 
     }
 }

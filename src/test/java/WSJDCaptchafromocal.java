@@ -13,7 +13,7 @@ import java.io.*;
 public class WSJDCaptchafromocal {
 
     public static void main(String[] args) {
-        String filePath="D:\\tem\\image\\test";
+        String filePath = "D:\\tem\\image\\test";
         File file = new File(filePath);
         File[] files = file.listFiles();
 
@@ -26,7 +26,7 @@ public class WSJDCaptchafromocal {
         ocr.stopEngine();
 
 
-       // System.out.println("bmp:================="+bmp);
+        // System.out.println("bmp:================="+bmp);
 
       /*  File[] files = file.listFiles();
         for (File file1 : files) {

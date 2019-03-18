@@ -10,20 +10,20 @@ import java.util.Random;
  **/
 public class MakerThread extends Thread {
     private final Table table;
-    private static int id=0;//蛋糕的流水号
+    private static int id = 0;//蛋糕的流水号
 
 
-    public MakerThread(String name,Table table) {
+    public MakerThread(String name, Table table) {
         super(name);
         this.table = table;
     }
 
     @Override
     public void run() {
-        while (true){
+        while (true) {
             try {
                 Thread.sleep(new Random().nextInt(1000));
-                table.put("Cake No "+ nextid() +" by name:"+getName());
+                table.put("Cake No " + nextid() + " by name:" + getName());
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

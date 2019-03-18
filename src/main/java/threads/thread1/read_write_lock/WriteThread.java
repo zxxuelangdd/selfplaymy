@@ -8,10 +8,10 @@ import java.util.Random;
  * @author: zx
  * @create: 2018-09-02 17:48
  **/
-public class WriteThread extends Thread{
+public class WriteThread extends Thread {
     private final Data data;
     private final String filler;
-    private int index=0;
+    private int index = 0;
 
     public WriteThread(Data data, String filler) {
         this.data = data;
@@ -20,23 +20,24 @@ public class WriteThread extends Thread{
 
     @Override
     public void run() {
-        try {  while (true){
-            char c=nextchar();
+        try {
+            while (true) {
+                char c = nextchar();
 
                 data.write(c);
                 Thread.sleep(new Random().nextInt(3000));
-        }
-            } catch (InterruptedException e) {
-                e.printStackTrace();
             }
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
     }
 
     private char nextchar() {
         char c = filler.charAt(index);
         index++;
-        if(index>=filler.length()){
-            index=0;
+        if (index >= filler.length()) {
+            index = 0;
         }
         return c;
     }

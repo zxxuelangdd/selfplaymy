@@ -7,5 +7,5 @@ package designpatterns.abstractfactory;
  * @create: 2018-09-06 10:35
  **/
 public interface HumanFactory {
-    public  Human creathuman();
+    public Human creathuman();
 }

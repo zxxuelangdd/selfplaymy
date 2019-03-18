@@ -15,7 +15,7 @@ public class ElectricCooker {
         this.usa110 = usa110;
     }
 
-    public void cook(){
+    public void cook() {
         usa110.connect();//通电
         System.out.println("开始做饭。。。");
     }

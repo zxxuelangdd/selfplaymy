@@ -9,19 +9,19 @@ package threads.thread1.future;
 public class RealData {
     private final String content;
 
-    public RealData(int count,char c) {
-        System.out.println("    making RealData("+count+","+c+")begin");
+    public RealData(int count, char c) {
+        System.out.println("    making RealData(" + count + "," + c + ")begin");
         char[] buffer = new char[count];
         for (int i = 0; i < count; i++) {
-            buffer[i]=c;
+            buffer[i] = c;
             try {
                 Thread.sleep(1);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
         }
-        System.out.println("    making RealData("+count+","+c+")end");
-        this.content=new String(buffer);
+        System.out.println("    making RealData(" + count + "," + c + ")end");
+        this.content = new String(buffer);
     }
 
     public String getContent() {

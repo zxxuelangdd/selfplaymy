@@ -16,7 +16,7 @@ public class Main {
 
 
         for (int i = 0; i < 5; i++) {
-            System.out.println("--------------------------"+i);
+            System.out.println("--------------------------" + i);
             ClientThread alice = new ClientThread("Alice");
             ClientThread bobby = new ClientThread("Bobby");
             ClientThread chirs = new ClientThread("Chirs");
@@ -28,6 +28,6 @@ public class Main {
         }
         Thread.sleep(5000);
         boolean terminated = executorService.isTerminated();
-        System.out.println("--------------------------"+terminated);
+        System.out.println("--------------------------" + terminated);
     }
 }

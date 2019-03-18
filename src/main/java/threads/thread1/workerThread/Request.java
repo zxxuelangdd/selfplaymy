@@ -7,15 +7,16 @@ package threads.thread1.workerThread;
  * @create: 2018-09-03 20:40
  **/
 public class Request {
-    private final  String name;
+    private final String name;
     private final int num;
 
     public Request(String name, int num) {
         this.name = name;
         this.num = num;
     }
-    public void excute(){
-        System.out.println(Thread.currentThread().getName()+"  execute  "+this);
+
+    public void excute() {
+        System.out.println(Thread.currentThread().getName() + "  execute  " + this);
         try {
             Thread.sleep(1000);
         } catch (InterruptedException e) {

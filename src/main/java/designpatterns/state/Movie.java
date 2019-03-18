@@ -25,10 +25,8 @@ public class Movie {
     /**
      * 确定返回具体某个影片类型的实现类，有点像工厂
      *
-     * @param movieCode
-     *            影片类型
-     * @throws MovieException
-     *             若无影片类型则抛异常。
+     * @param movieCode 影片类型
+     * @throws MovieException 若无影片类型则抛异常。
      */
     public void setPrice(String movieClass) throws MovieException {
         try {

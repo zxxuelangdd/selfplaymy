@@ -5,10 +5,6 @@ package recursionjdk8;
  * @description: 尝试高效
  * @author: zx
  * @create: 2018-08-09 14:31
- *
- *
- *
- *
  **/
 public class MoreQuick {
     public static void main(String[] args) {
@@ -18,7 +14,7 @@ public class MoreQuick {
             }
         };
         hello.run();
-        Runnable hi=()-> System.out.println("hello lambda");
+        Runnable hi = () -> System.out.println("hello lambda");
         hi.run();
     }
 }

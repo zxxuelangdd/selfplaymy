@@ -12,7 +12,7 @@ import java.util.concurrent.Executors;
  * @create: 2018-09-09 08:37
  **/
 public class Main {
-    private static final int THREADS=3;
+    private static final int THREADS = 3;
 
     public static void main(String[] args) {
         System.out.println("begin");
@@ -32,11 +32,11 @@ public class Main {
             for (int i = 0; i < THREADS; i++) {
                 Mytask mytask = new Mytask(cyclicBarrier, countDownLatch, i);
                 service.execute(mytask);
-                System.out.println("---------------------"+i);
+                System.out.println("---------------------" + i);
             }
             System.out.println("await");
             //未达到指定反馈条件时候等待  满足反馈条件之后继续执行
-           countDownLatch.await();
+            countDownLatch.await();
             System.out.println("await   after");
         } catch (Exception e) {
             e.printStackTrace();

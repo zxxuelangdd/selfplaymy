@@ -1,4 +1,5 @@
 package threads.future;
+
 /**
  * @program: selfplay
  * @description: 测试使用future

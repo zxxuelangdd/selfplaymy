@@ -8,10 +8,10 @@ import java.util.Random;
  * @author: zx
  * @create: 2018-09-03 20:40
  **/
-public class ClientThread extends Thread{
+public class ClientThread extends Thread {
     private final Channel channel;
 
-    public ClientThread(String name,Channel channel) {
+    public ClientThread(String name, Channel channel) {
         super(name);
         this.channel = channel;
     }
@@ -19,7 +19,7 @@ public class ClientThread extends Thread{
     @Override
     public void run() {
         try {
-            for (int i=0;true;i++){
+            for (int i = 0; true; i++) {
                 Request request = new Request(getName(), i);
                 channel.putRequest(request);
                 Thread.sleep(new Random().nextInt(1000));

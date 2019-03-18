@@ -6,9 +6,9 @@ package threads.thread1.threadPerMessage;
  * @author: zx
  * @create: 2018-09-03 20:06
  **/
-public class Helper{
-    public void handle(int count,char c){
-        System.out.println("   handle("+count+","+c+ " )beging");
+public class Helper {
+    public void handle(int count, char c) {
+        System.out.println("   handle(" + count + "," + c + " )beging");
         for (int i = 0; i < count; i++) {
             try {
                 Thread.sleep(1000);
@@ -18,6 +18,6 @@ public class Helper{
             }
         }
         System.out.println();
-        System.out.println("   handle("+count+","+c+ " )end");
+        System.out.println("   handle(" + count + "," + c + " )end");
     }
 }

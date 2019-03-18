@@ -1,11 +1,5 @@
 package wsjk;
 
-import lombok.Data;
-import lombok.experimental.Accessors;
-
-import java.util.List;
-import java.util.Map;
-
 /**
  * @program: selfplay
  * @description: 卫生监督查询结果

@@ -1,8 +1,5 @@
 package threads.thread1.immutable;
 
-import com.google.common.collect.Lists;
-
-import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
@@ -17,8 +14,8 @@ public class Main {
 //        List<Integer> list = Lists.newArrayList();
 //        ArrayList<Integer> list = new ArrayList<>();
         List<Integer> list = new CopyOnWriteArrayList<>();
-        new WriterThread(list,200000000).start();
-        new ReadThread(list,200000000).start();
+        new WriterThread(list, 200000000).start();
+        new ReadThread(list, 200000000).start();
 
     }
 }

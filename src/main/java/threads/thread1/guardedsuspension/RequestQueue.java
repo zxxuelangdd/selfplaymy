@@ -12,9 +12,10 @@ import java.util.concurrent.LinkedBlockingQueue;
  * @create: 2018-08-29 20:24
  **/
 public class RequestQueue {
-    private final BlockingQueue<Request> qu=new LinkedBlockingQueue<Request>();
-    private  final Queue<Request> queue=new LinkedList<>();
-    public  Request getRequest(){
+    private final BlockingQueue<Request> qu = new LinkedBlockingQueue<Request>();
+    private final Queue<Request> queue = new LinkedList<>();
+
+    public Request getRequest() {
         System.out.println("-----get---------");
         /*while(queue.peek()==null){
             try {
@@ -24,16 +25,16 @@ public class RequestQueue {
             }
         }
         return  queue.remove();*/
-        Request request=null;
+        Request request = null;
         try {
-           request= qu.take();
+            request = qu.take();
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-return request;
+        return request;
     }
 
-    public    void putRequest(Request request){
+    public void putRequest(Request request) {
         System.out.println("====put======");
       /*  queue.offer(request);
         notifyAll();*/

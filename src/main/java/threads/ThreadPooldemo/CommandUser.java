@@ -29,7 +29,6 @@ public class CommandUser extends HystrixCommand<String> {
                                 .withQueueSizeRejectionThreshold(10000))
 
 
-
 //线程池隔离
                         .andCommandPropertiesDefaults(
                                 HystrixCommandProperties.Setter()
@@ -42,7 +41,7 @@ public class CommandUser extends HystrixCommand<String> {
     @Override
     public String run() throws Exception {
 
-        System.out.println(" CommandUser  username:"+userName);
+        System.out.println(" CommandUser  username:" + userName);
 
         TimeUnit.MILLISECONDS.sleep(100);
         return "userName=" + userName;

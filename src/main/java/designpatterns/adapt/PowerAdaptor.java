@@ -6,7 +6,7 @@ package designpatterns.adapt;
  * @author: zx
  * @create: 2018-09-06 11:23
  **/
-public class PowerAdaptor implements  Power {
+public class PowerAdaptor implements Power {
 
     private Power power;
 

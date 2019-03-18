@@ -9,7 +9,9 @@ import java.util.concurrent.Future;
  * @create: 2018-09-10 19:56
  **/
 public interface ActiveObject {
-    public abstract Future<String> makeString(int count,char c);
+    public abstract Future<String> makeString(int count, char c);
+
     public abstract void displayString(String string);
+
     public abstract void shutdown();
 }

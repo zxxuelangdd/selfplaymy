@@ -12,38 +12,34 @@ public class JustTest {
 
     public static void main(String[] args) {
         Logger logger = LoggerFactory.getLogger(JustTest.class);
-        int i=0;
-        i=i+99;
+        int i = 0;
+        i = i + 99;
         System.out.println(i);
         logger.info("adfasd");
 
-        String t="  s  ad f a   ";
-        System.out.println("==========="+t);
+        String t = "  s  ad f a   ";
+        System.out.println("===========" + t);
         String trim = StringUtils.trim(t);
 
         String trimToEmpty = StringUtils.trimToEmpty(t);
-        System.out.println("trimToEmpty===="+trimToEmpty);
+        System.out.println("trimToEmpty====" + trimToEmpty);
 
         String trimToNull = StringUtils.trimToNull(t);
-        System.out.println("trimToNull=========="+trimToNull);
+        System.out.println("trimToNull==========" + trimToNull);
 
-        System.out.println("trim=========="+trim);
+        System.out.println("trim==========" + trim);
 
-        String a=null;
-        System.out.println("aaaa======="+StringUtils.isEmpty(a));
-        System.out.println("aaaa======="+StringUtils.isBlank(a));
+        String a = null;
+        System.out.println("aaaa=======" + StringUtils.isEmpty(a));
+        System.out.println("aaaa=======" + StringUtils.isBlank(a));
 
 
-
-        String name="111";
+        String name = "111";
         boolean blank = StringUtils.isBlank(name);
         boolean numeric = StringUtils.isNumeric(name);
-        logger.info("blank:"+blank);
-        logger.info("numeric:"+StringUtils.isNumeric("34234"));
-        logger.info("是不是全是字母:"+StringUtils.isAlpha("ddasfdasfas是"));
-
-
-
+        logger.info("blank:" + blank);
+        logger.info("numeric:" + StringUtils.isNumeric("34234"));
+        logger.info("是不是全是字母:" + StringUtils.isAlpha("ddasfdasfas是"));
 
 
     }

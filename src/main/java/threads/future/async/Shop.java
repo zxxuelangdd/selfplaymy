@@ -6,8 +6,6 @@ import java.util.Random;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.Future;
 
-import static java.util.stream.Collectors.toList;
-
 /**
  * @program: selfplay
  * @description: 描述异步调用计算价格的类
@@ -23,7 +21,7 @@ public class Shop {
         this.name = name;
     }
 
-    public Future<Double> getAsyncprice(String product){
+    public Future<Double> getAsyncprice(String product) {
         return CompletableFuture.supplyAsync(() -> calculatePrice(product));
 
 

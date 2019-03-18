@@ -1,7 +1,5 @@
 package othertest;
 
-import java.util.UUID;
-
 /**
  * @program: selfplay
  * @description:
@@ -11,7 +9,7 @@ import java.util.UUID;
 public class aa {
     public static void main(String[] args) {
 
-        String a="ersert";
+        String a = "ersert";
         boolean e = a.matches(".*e.*");
         System.out.println(e);
 

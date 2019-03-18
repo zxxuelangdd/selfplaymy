@@ -17,7 +17,7 @@ public class DateApi {
         int dayOfMonth = date.getDayOfMonth();
         DayOfWeek dayOfWeek = date.getDayOfWeek();
         int i = date.lengthOfMonth();
-        System.out.println(year+"   "+month+"   "+dayOfMonth+"   "+dayOfWeek+"   "+i);
+        System.out.println(year + "   " + month + "   " + dayOfMonth + "   " + dayOfWeek + "   " + i);
 
     }
 }

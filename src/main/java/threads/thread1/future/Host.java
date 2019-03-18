@@ -7,12 +7,12 @@ package threads.thread1.future;
  * @create: 2018-09-08 11:49
  **/
 public class Host {
-    public Data request(final int count,final char c){
-        System.out.println("    request("+count+","+c+")begin");
+    public Data request(final int count, final char c) {
+        System.out.println("    request(" + count + "," + c + ")begin");
         //创建Future的实例
         FutureData futureData = new FutureData();
         //启动一个新的线程用于创建RealData的实例
-        new Thread(){
+        new Thread() {
             @Override
             public void run() {
                 RealData realData = new RealData(count, c);
@@ -20,8 +20,8 @@ public class Host {
                 futureData.setRealdata(realData);
             }
         }.start();
-        System.out.println("    request("+count+","+c+")end");
+        System.out.println("    request(" + count + "," + c + ")end");
         //返回实例
-        return  futureData;
+        return futureData;
     }
 }

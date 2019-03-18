@@ -1,11 +1,8 @@
 package threads.future.async;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
-import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
-import java.util.stream.Collectors;
 
 import static java.util.stream.Collectors.toList;
 
@@ -17,13 +14,13 @@ import static java.util.stream.Collectors.toList;
  **/
 public class ShopPriceTest {
     public static void main(String[] args) throws ExecutionException, InterruptedException {
-        List<Shop> shops=new ArrayList<>();
+        List<Shop> shops = new ArrayList<>();
         for (int i = 0; i < 5; i++) {
             Shop shop = new Shop("A----" + i);
             shops.add(shop);
         }
         long start = System.nanoTime();
-        System.out.println(findPrices("myPhone27S",shops));
+        System.out.println(findPrices("myPhone27S", shops));
         long duration = (System.nanoTime() - start) / 1_000_000;
         System.out.println("Done in " + duration + " msecs");
 
@@ -47,19 +44,18 @@ public class ShopPriceTest {
 
     private static List<String> findPrices(String name, List<Shop> shops) {
 
-          //使用CompletableFuture的方式计算每种商品在不同商店中的价格
+        //使用CompletableFuture的方式计算每种商品在不同商店中的价格
          /*List<CompletableFuture<String>> collect = shops.parallelStream()
                 .map(shop -> CompletableFuture.supplyAsync(
                         () -> String.format("%s price is %.2f",
                                 shop.getName(), shop.getPrice(name))))
                 .collect(toList());*/
         //等待所有异步(商品计算价格的结果)执行完成进行合并操作,使用
-         //List<String> collect1 = collect.stream().map(CompletableFuture::join).collect(Collectors.toList());
-        return  shops.parallelStream()
+        //List<String> collect1 = collect.stream().map(CompletableFuture::join).collect(Collectors.toList());
+        return shops.parallelStream()
                 .map(shop -> String.format("%s price is %.2f",
                         shop.getName(), shop.getPrice("name")))
                 .collect(toList());
-
 
 
     }
