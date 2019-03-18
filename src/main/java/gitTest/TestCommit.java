@@ -11,6 +11,6 @@ public class TestCommit {
     public static void main(String[] args) {
         System.out.println("just  test masteradd  git commit");
         System.out.println("test git masterchange");
-        System.out.println("test github desktop");
+        System.out.println("test github desktop  https://git.imooc.com/coding-71/coding-71.git");
     }
 }
